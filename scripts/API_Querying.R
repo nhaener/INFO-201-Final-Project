@@ -17,7 +17,7 @@ require(curl)
 require(httr)
 
 
-#retrieve and define pro publica access key
+#retrieve and define data access key
 base_uri <- 'http://catalog.data.gov/api/3/'
 
 
