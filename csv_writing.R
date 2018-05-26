@@ -1,0 +1,13 @@
+source("testscript.R")
+
+write.csv(attendance_2016, "data/2015-2016 data.csv")
+write.csv(attendance_2015, "data/2014-2015 data.csv")
+write.csv(attendance_2014, "data/2013-2014 data.csv")
+write.csv(attendance_2013, "data/2012-2013 data.csv")
+write.csv(attendance_2012, "data/2011-2012 data.csv")
+write.csv(attendance_2011, "data/2010-2011 data.csv")
+write.csv(attendance_2010, "data/2009-2010 data.csv")
+write.csv(attendance_2009, "data/2008-2009 data.csv")
+write.csv(attendance_2008, "data/2007-2008 data.csv")
+write.csv(attendance_2007, "data/2006-2007 data.csv")
+write.csv(attendance_2006, "data/2005-2006 data.csv")

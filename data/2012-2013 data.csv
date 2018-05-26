@@ -1,0 +1,232 @@
+"","Data","UNITID","Year","NCAA Subdivision","FBS Conference","FTE Students","Total Academic Spending","Academic Spending per FTE Student","Unduplicated Athletes (Headcount)","Total Athletic Spending","Athletic Spending per Athlete","Football Players","Total Football Spending","Football Spending per Football Player","Attendance 2013"
+"1","Alabama A & M University",100654,2012,"Football Championship Subdivision",NA,4461,71546955,16038,258,6604394,25598,79,2410985,30519,4468
+"2","Alabama State University",100724,2012,"Football Championship Subdivision",NA,5290,90393224,17088,266,11718348,44054,79,2815831,35643,5906
+"3","Alcorn State University",175342,2012,"Football Championship Subdivision",NA,3739,37993268,10161,227,6327227,27873,77,1687103,21910,3638
+"4","Appalachian State University",197869,2012,"Football Championship Subdivision",NA,17149,193778547,11300,476,17238578,36216,115,4130232,35915,16952
+"5","Arizona State University",104151,2012,"Football Bowl Subdivision","Pacific-12 Conference",66224,885028401,13364,518,65587903,126618,123,24541562,199525,43072
+"6","Arkansas State University",106458,2012,"Football Bowl Subdivision","Sun Belt Conference",12568,92078148,7326,334,15307308,45830,122,5299557,43439,11951
+"7","Auburn University",100858,2012,"Football Bowl Subdivision","Southeastern Conference",23884,344758504,14435,478,96315831,201498,122,33334594,273234,21091
+"8","Austin Peay State University",219602,2012,"Football Championship Subdivision",NA,8715,101083786,11599,273,9622460,35247,92,1903545,20691,11381
+"9","Ball State University",150136,2012,"Football Bowl Subdivision","Mid-American Conference",20795,299220798,14389,450,20174709,44833,130,5673718,43644,18458
+"10","Binghamton University, The State University of New York",196079,2012,"No Football Subdivision",NA,14534,249381793,17159,447,13874420,31039,NA,NA,NA,13437
+"11","Boise State University",142115,2012,"Football Bowl Subdivision","Mountain West Conference",16576,156840714,9462,436,43172225,99019,107,18084752,169016,22987
+"12","Bowling Green State University",201441,2012,"Football Bowl Subdivision","Mid-American Conference",16573,204676542,12350,437,18387277,42076,105,4880738,46483,16231
+"13","California Polytechnic State University-San Luis Obispo",110422,2012,"Football Championship Subdivision",NA,17361,271932828,15663,488,20154399,41300,95,2877772,30292,18052
+"14","California State University-Bakersfield",110486,2012,"No Football Subdivision",NA,7376,94823964,12856,307,10649029,34687,NA,NA,NA,8556
+"15","California State University-Fresno",110556,2012,"Football Bowl Subdivision","Western Athletic Conference",18812,219751414,11681,431,30174803,70011,105,7253910,69085,20061
+"16","California State University-Fullerton",110565,2012,"No Football Subdivision",NA,28370,329722813,11622,278,10408792,37442,NA,NA,NA,33248
+"17","California State University-Long Beach",110583,2012,"No Football Subdivision",NA,28094,349299921,12433,340,15547465,45728,NA,NA,NA,31727
+"18","California State University-Northridge",110608,2012,"No Football Subdivision",NA,28071,344742602,12281,327,10532983,32211,NA,NA,NA,32425
+"19","California State University-Sacramento",110617,2012,"Football Championship Subdivision",NA,22630,266032542,11756,453,18592767,41044,87,3150341,36211,26871
+"20","Central Connecticut State University",128771,2012,"Football Championship Subdivision",NA,10226,151526199,14818,361,13465442,37300,88,1890549,21484,11498
+"21","Central Michigan University",169248,2012,"Football Bowl Subdivision","Mid-American Conference",23832,260043739,10912,420,25738861,61283,110,5656183,51420,23017
+"22","Chicago State University",144005,2012,"No Football Subdivision",NA,5436,109647485,20171,125,5630586,45045,NA,NA,NA,5475
+"23","Citadel Military College of South Carolina",217864,2012,"Football Championship Subdivision",NA,3547,63217533,17823,351,12841412,36585,123,3891757,31640,2905
+"24","Clemson University",217882,2012,"Football Bowl Subdivision","Atlantic Coast Conference",19332,277480696,14353,472,67783797,143610,115,24144791,209955,17798
+"25","Cleveland State University",202134,2012,"No Football Subdivision",NA,14383,184419973,12822,283,10911800,38558,NA,NA,NA,14162
+"26","Coastal Carolina University",218724,2012,"Football Championship Subdivision",NA,8825,114442802,12968,387,22174271,57298,108,6540131,60557,9555
+"27","College of Charleston",217819,2012,"No Football Subdivision",NA,10992,138538849,12604,385,14456055,37548,NA,NA,NA,11392
+"28","College of William and Mary",231624,2012,"Football Championship Subdivision",NA,8132,161234045,19827,495,20384899,41182,102,4983155,48854,6702
+"29","Colorado State University",126818,2012,"Football Bowl Subdivision","Mountain West Conference",24675,306494084,12421,372,30161147,81078,115,10959554,95300,25594
+"30","Coppin State University",162283,2012,"No Football Subdivision",NA,3149,61683691,19588,140,3503649,25026,NA,NA,NA,4122
+"31","Delaware State University",130934,2012,"Football Championship Subdivision",NA,4023,75385428,18739,308,12963142,42088,93,2905524,31242,4444
+"32","East Carolina University",198464,2012,"Football Bowl Subdivision","Conference USA",25182,369692770,14681,407,33623495,82613,121,9711313,80259,23304
+"33","East Tennessee State University",220075,2012,"No Football Subdivision",NA,13604,220920004,16239,238,12449876,52310,NA,NA,NA,13960
+"34","Eastern Illinois University",144892,2012,"Football Championship Subdivision",NA,10125,168166458,16609,438,12771828,29159,110,3025993,27509,9989
+"35","Eastern Kentucky University",156620,2012,"Football Championship Subdivision",NA,13547,183891284,13574,323,12954360,40106,104,3424448,32927,16092
+"36","Eastern Michigan University",169798,2012,"Football Bowl Subdivision","Mid-American Conference",18458,272768639,14778,498,27798118,55820,104,7744734,74469,22121
+"37","Eastern Washington University",235097,2012,"Football Championship Subdivision",NA,11590,119144593,10280,311,10941866,35183,93,3189869,34300,13895
+"38","Florida Agricultural and Mechanical University",133650,2012,"Football Championship Subdivision",NA,12844,161217463,12552,271,11005786,40612,79,2761283,34953,11025
+"39","Florida Atlantic University",133669,2012,"Football Bowl Subdivision","Sun Belt Conference",24061,274265618,11399,407,20020133,49190,149,6900943,46315,30753
+"40","Florida Gulf Coast University",433660,2012,"No Football Subdivision",NA,10879,113457836,10429,260,10530733,40503,NA,NA,NA,13703
+"41","Florida International University",133951,2012,"Football Bowl Subdivision","Sun Belt Conference",41620,447242871,10746,361,27428271,75979,98,7867971,80285,51334
+"42","Florida State University",134097,2012,"Football Bowl Subdivision","Atlantic Coast Conference",39762,448100131,11270,514,90278878,175640,117,22052228,188481,36086
+"43","George Mason University",232186,2012,"No Football Subdivision",NA,26816,401441347,14970,490,19378204,39547,NA,NA,NA,30850
+"44","Georgia Institute of Technology",139755,2012,"Football Bowl Subdivision","Atlantic Coast Conference",21593,351597690,16283,364,61179789,168076,118,17121071,145094,16085
+"45","Georgia Southern University",139931,2012,"Football Championship Subdivision",NA,19063,193216781,10136,388,11335102,29214,126,3745578,29727,20501
+"46","Georgia State University",139940,2012,"Football Championship Subdivision",NA,31134,317830172,10208,399,25943332,65021,127,NA,NA,29121
+"47","Grambling State University",159009,2012,"Football Championship Subdivision",NA,5080,58553973,11526,260,6955233,26751,84,2485600,29590,4937
+"48","Idaho State University",142276,2012,"Football Championship Subdivision",NA,11140,132186822,11866,273,11763774,43091,81,2880264,35559,15063
+"49","Illinois State University",145813,2012,"Football Championship Subdivision",NA,19434,298599771,15365,429,18631777,43431,104,3320123,31924,19714
+"50","Indiana State University",151324,2012,"Football Championship Subdivision",NA,10346,126521483,12229,346,13264965,38338,89,3406573,38276,13141
+"51","Indiana University-Bloomington",151351,2012,"Football Bowl Subdivision","Big Ten Conference",40934,735408214,17966,635,69915060,110102,106,16156689,152422,34209
+"52","Indiana University-Purdue University-Fort Wayne",151102,2012,"No Football Subdivision",NA,10258,110782965,10800,227,7088525,31227,NA,NA,NA,15567
+"53","Indiana University-Purdue University-Indianapolis",151111,2012,"No Football Subdivision",NA,27104,568482248,20974,230,7019556,30520,NA,NA,NA,27342
+"54","Iowa State University",153603,2012,"Football Bowl Subdivision","Big 12 Conference",27918,382859193,13714,438,55113720,125830,129,14084667,109183,27941
+"55","Jackson State University",175856,2012,"Football Championship Subdivision",NA,7686,100886604,13126,260,5882042,22623,78,1598605,20495,8130
+"56","Jacksonville State University",101480,2012,"Football Championship Subdivision",NA,7938,83889887,10568,298,12261404,41146,93,3484174,37464,9315
+"57","James Madison University",232423,2012,"Football Championship Subdivision",NA,19521,230017428,11783,461,34595223,75044,111,6608363,59535,20065
+"58","Kansas State University",155399,2012,"Football Bowl Subdivision","Big 12 Conference",20907,325007415,15545,465,50994785,109666,126,13654480,108369,22842
+"59","Kennesaw State University",140164,2012,"No Football Subdivision",NA,21466,213667166,9954,242,12515027,51715,NA,NA,NA,26769
+"60","Kent State University",203517,2012,"Football Bowl Subdivision","Mid-American Conference",26176,292001533,11155,456,22735640,49859,120,5336428,44470,26315
+"61","Lamar University",226091,2012,"Football Championship Subdivision",NA,11720,113194808,9658,291,14390771,49453,101,NA,NA,11730
+"62","Longwood University",232566,2012,"No Football Subdivision",NA,4588,57060590,12437,210,7944441,37831,NA,NA,NA,4738
+"63","Louisiana State University and Agricultural & Mechanical College",159391,2012,"Football Bowl Subdivision","Southeastern Conference",28621,358289017,12518,498,101989116,204797,132,24671982,186909,26162
+"64","Louisiana Tech University",159647,2012,"Football Bowl Subdivision","Western Athletic Conference",9174,73222976,7982,306,18687576,61071,100,5890991,58910,10519
+"65","Marshall University",237525,2012,"Football Bowl Subdivision","Conference USA",12022,156456346,13014,368,26816730,72872,105,7241104,68963,11330
+"66","McNeese State University",159717,2012,"Football Championship Subdivision",NA,7768,61911811,7970,365,10139996,27781,129,2482126,19241,8597
+"67","Miami University",204024,2012,"Football Bowl Subdivision","Mid-American Conference",17652,286041208,16204,540,27832911,51542,114,6388432,56039,16153
+"68","Michigan State University",171100,2012,"Football Bowl Subdivision","Big Ten Conference",43259,778821817,18004,732,88100432,120356,116,20469348,176460,40757
+"69","Middle Tennessee State University",220978,2012,"Football Bowl Subdivision","Sun Belt Conference",22676,234295940,10332,391,26450723,67649,135,8538347,63247,25850
+"70","Mississippi State University",176080,2012,"Football Bowl Subdivision","Southeastern Conference",19055,175978923,9235,381,67926160,178284,125,13594454,108756,17136
+"71","Mississippi Valley State University",176044,2012,"Football Championship Subdivision",NA,2273,34492479,15175,221,4643265,21010,83,1088097,13110,2495
+"72","Missouri State University",179566,2012,"Football Championship Subdivision",NA,16685,165686534,9930,385,13761264,35744,97,2555357,26344,19849
+"73","Montana State University",180461,2012,"Football Championship Subdivision",NA,12353,136482663,11049,390,22583025,57905,104,9719824,93460,14098
+"74","Morehead State University",157386,2012,"Football Championship Subdivision",NA,7328,103036820,14061,323,10376374,32125,95,1148081,12085,10893
+"75","Morgan State University",163453,2012,"Football Championship Subdivision",NA,7466,95440651,12783,261,9877250,37844,103,2427355,23567,7242
+"76","Murray State University",157401,2012,"Football Championship Subdivision",NA,8820,114719936,13007,314,14449057,46016,92,2588621,28137,9972
+"77","New Jersey Institute of Technology",185828,2012,"No Football Subdivision",NA,10102,123312483,12207,269,10706684,39802,NA,NA,NA,8127
+"78","New Mexico State University",188030,2012,"Football Bowl Subdivision","Western Athletic Conference",14698,153654764,10454,391,27426388,70144,99,6248723,63118,16085
+"79","Nicholls State University",159966,2012,"Football Championship Subdivision",NA,6187,57257118,9254,318,7323983,23031,112,1808339,16146,6914
+"80","Norfolk State University",232937,2012,"Football Championship Subdivision",NA,5978,66941461,11198,285,11663885,40926,107,2634551,24622,7238
+"81","North Carolina A & T State University",199102,2012,"Football Championship Subdivision",NA,10159,128855608,12684,170,10521502,61891,46,2673876,58128,10194
+"82","North Carolina Central University",199157,2012,"Football Championship Subdivision",NA,7934,125341557,15798,246,8907321,36209,87,2593574,29811,7538
+"83","North Carolina State University at Raleigh",199193,2012,"Football Bowl Subdivision","Atlantic Coast Conference",30920,504279999,16309,522,56332313,107916,115,15463582,134466,28247
+"84","North Dakota State University",200332,2012,"Football Championship Subdivision",NA,12978,125394671,9662,376,16831447,44764,107,3663103,34235,12972
+"85","Northern Arizona University",105330,2012,"Football Championship Subdivision",NA,24232,257193400,10614,301,11661255,38742,91,2838620,31194,23870
+"86","Northern Illinois University",147703,2012,"Football Bowl Subdivision","Mid-American Conference",19396,309236973,15943,410,23863877,58205,111,7331191,66047,18076
+"87","Northern Kentucky University",157447,2012,"Division II",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,14695
+"88","Northwestern State University of Louisiana",160038,2012,"Football Championship Subdivision",NA,7768,73736236,9492,350,11018299,31481,125,2832905,22663,10116
+"89","Oakland University",171571,2012,"No Football Subdivision",NA,16159,196329755,12150,340,10681019,31415,NA,NA,NA,18992
+"90","Ohio University",204857,2012,"Football Bowl Subdivision","Mid-American Conference",26477,336876442,12723,433,24408346,56370,124,7868100,63452,26272
+"91","Oklahoma State University",207388,2012,"Football Bowl Subdivision","Big 12 Conference",21237,253663808,11944,516,96782619,187563,135,26238172,194357,22241
+"92","Old Dominion University",232982,2012,"Football Championship Subdivision",NA,20048,249343151,12437,458,34375037,75055,98,5936486,60576,22102
+"93","Oregon State University",209542,2012,"Football Bowl Subdivision","Pacific-12 Conference",22990,290407160,12632,477,57819032,121214,105,11903213,113364,25838
+"94","Pennsylvania State University",214777,2012,"Football Bowl Subdivision","Big Ten Conference",47365,1277411016,26970,771,107389258,139286,124,18380701,148231,41535
+"95","Portland State University",209807,2012,"Football Championship Subdivision",NA,22089,245981031,11136,261,12979483,49730,95,3639220,38308,30006
+"96","Prairie View A & M University",227526,2012,"Football Championship Subdivision",NA,7493,88042242,11750,366,9395570,25671,105,2555397,24337,7537
+"97","Purdue University",243780,2012,"Football Bowl Subdivision","Big Ten Conference",40313,765290699,18984,503,68056269,135301,107,13948588,130361,32874
+"98","Radford University",233277,2012,"No Football Subdivision",NA,9139,97694693,10690,324,10849661,33487,NA,NA,NA,9088
+"99","Rutgers, The State University of New Jersey-New Brunswick",186380,2012,"Football Bowl Subdivision","Big East Conference",39322,906018435,23041,612,64038720,104638,117,21338849,182383,35660
+"100","Sam Houston State University",227881,2012,"Football Championship Subdivision",NA,17205,147003062,8544,379,11688542,30840,122,2702055,22148,17271
+"101","San Diego State University",122409,2012,"Football Bowl Subdivision","Mountain West Conference",27168,348627368,12832,537,39017254,72658,127,11748674,92509,27348
+"102","San Jose State University",122755,2012,"Football Bowl Subdivision","Western Athletic Conference",23504,336000702,14295,427,23505166,55047,109,5770987,52945,26085
+"103","Savannah State University",140960,2012,"Football Championship Subdivision",NA,4218,43011926,10197,227,6049901,26652,85,1494427,17581,5037
+"104","South Carolina State University",218733,2012,"Football Championship Subdivision",NA,4073,61319243,15055,216,10256778,47485,74,3186117,43056,3572
+"105","South Dakota State University",219356,2012,"Football Championship Subdivision",NA,10661,109931962,10312,466,14115098,30290,95,2596137,27328,13165
+"106","Southeast Missouri State University",179557,2012,"Football Championship Subdivision",NA,9609,93763060,9758,327,9450169,28900,103,2137293,20750,11953
+"107","Southeastern Louisiana University",160612,2012,"Football Championship Subdivision",NA,12959,110824730,8552,310,10680831,34454,91,2693043,29594,16960
+"108","Southern Illinois University-Carbondale",149222,2012,"Football Championship Subdivision",NA,16910,481540193,28477,371,20739714,55902,98,3058560,31210,16205
+"109","Southern Illinois University-Edwardsville",149231,2012,"No Football Subdivision",NA,12652,217002058,17152,281,8318406,29603,NA,NA,NA,12648
+"110","Southern University and A & M College",160621,2012,"Football Championship Subdivision",NA,6594,76004294,11526,311,6550323,21062,105,1555457,14814,6293
+"111","Southern Utah University",230603,2012,"Football Championship Subdivision",NA,6552,69981212,10681,369,10197450,27635,95,2129090,22411,14150
+"112","Stephen F Austin State University",228431,2012,"Football Championship Subdivision",NA,11545,127313649,11028,326,12770652,39174,92,2851620,30996,12672
+"113","Stony Brook University",196097,2012,"Football Championship Subdivision",NA,22930,602772985,26288,451,23875960,52940,93,3909564,42038,18813
+"114","Tennessee State University",221838,2012,"Football Championship Subdivision",NA,7691,120148668,15622,231,11011386,47668,93,3698628,39770,7909
+"115","Tennessee Technological University",221847,2012,"Football Championship Subdivision",NA,9697,103122054,10634,296,12056455,40731,105,2770567,26386,11005
+"116","Texas A & M University",228723,2012,"Football Bowl Subdivision","Big 12 Conference",44937,727503781,16189,674,81792118,121353,122,17929882,146966,44468
+"117","Texas A & M University-Corpus Christi",224147,2012,"No Football Subdivision",NA,8817,91981645,10432,191,8995616,47097,NA,NA,NA,10146
+"118","Texas Southern University",229063,2012,"Football Championship Subdivision",NA,10093,144074526,14275,303,10659376,35179,92,2537051,27577,7852
+"119","Texas State University",228459,2012,"Football Championship Subdivision",NA,29547,276413968,9355,368,25439818,69130,120,4893076,40776,33061
+"120","Texas Tech University",229115,2012,"Football Bowl Subdivision","Big 12 Conference",28961,310129832,10709,412,60346836,146473,128,22728847,177569,28722
+"121","The Ohio State University",204796,2012,"Football Bowl Subdivision","Big Ten Conference",69248,1249399534,18042,783,124419412,158901,104,34360112,330386,47269
+"122","The University of Alabama",100751,2012,"Football Bowl Subdivision","Southeastern Conference",30022,460721367,15346,550,108204867,196736,138,37774386,273727,30700
+"123","The University of Montana",180489,2012,"Football Championship Subdivision",NA,13513,156138056,11555,286,19011913,66475,113,5681689,50280,14753
+"124","The University of Tennessee",221759,2012,"Football Bowl Subdivision","Southeastern Conference",27943,750451780,26857,449,101292015,225595,121,22286733,184188,22958
+"125","The University of Tennessee at Chattanooga",221740,2012,"Football Championship Subdivision",NA,10218,114310600,11187,316,15110268,47817,107,3209839,29998,11197
+"126","The University of Tennessee at Martin",221768,2012,"Football Championship Subdivision",NA,7129,77973938,10938,321,10227014,31860,97,2631164,27125,8311
+"127","The University of Texas at Arlington",228769,2012,"No Football Subdivision",NA,27599,296836155,10755,209,10770129,51532,NA,NA,NA,36388
+"128","The University of Texas at Austin",228778,2012,"Football Bowl Subdivision","Big 12 Conference",46261,1031578531,22299,549,138269710,251857,121,24773663,204741,42933
+"129","The University of Texas at El Paso",228796,2012,"Football Bowl Subdivision","Conference USA",18348,172918379,9424,328,27092238,82598,122,8801291,72142,22518
+"130","The University of Texas at San Antonio",229027,2012,"Football Championship Subdivision",NA,25906,266234630,10277,303,21223077,70043,98,4921710,50222,29354
+"131","The University of Texas Rio Grande Valley",227368,2012,"No Football Subdivision",NA,16707,153691678,9199,189,7273539,38484,NA,NA,NA,19333
+"132","Towson University",164076,2012,"Football Championship Subdivision",NA,19403,209739091,10810,523,25037059,47872,108,4240427,39263,20663
+"133","Troy University",102368,2012,"Football Bowl Subdivision","Sun Belt Conference",18937,171495950,9056,448,16504664,36841,128,5228809,40850,22220
+"134","United States Air Force Academy",128328,2012,"Football Bowl Subdivision","Mountain West Conference",5522,366898279.71,66443,803,43156740,53744,170,10004782,58852,4121
+"135","United States Military Academy",197036,2012,"Football Bowl Subdivision","Independent",4649,308768645,66416,763,26301738,34471,158,5678863,35942,4622
+"136","University at Albany, State University of New York",196060,2012,"Football Championship Subdivision",NA,15375,265064595,17240,458,14982179,32712,95,NA,NA,14601
+"137","University at Buffalo, The State University of New York",196088,2012,"Football Bowl Subdivision","Mid-American Conference",27404,581200339,21209,532,27478169,51651,104,5989993,57596,21950
+"138","University of Akron",200800,2012,"Football Bowl Subdivision","Mid-American Conference",23707,277340949,11699,478,27225730,56958,132,6692963,50704,25272
+"139","University of Alabama at Birmingham",100663,2012,"Football Bowl Subdivision","Conference USA",15980,424920107,26591,364,27412637,75309,118,7466811,63278,13108
+"140","University of Arizona",104179,2012,"Football Bowl Subdivision","Pacific-12 Conference",36777,600648511,16332,431,76802678,178196,106,24120824,227555,34144
+"141","University of Arkansas",106397,2012,"Football Bowl Subdivision","Southeastern Conference",21361,258457489,12100,442,82470473,186585,115,24325173,211523,22355
+"142","University of Arkansas at Little Rock",106245,2012,"No Football Subdivision",NA,9960,103626676,10404,186,9356355,50303,NA,NA,NA,11899
+"143","University of Arkansas at Pine Bluff",106412,2012,"Football Championship Subdivision",NA,2939,31808210,10823,206,7318670,35528,54,1705580,31585,2990
+"144","University of California-Berkeley",110635,2012,"Football Bowl Subdivision","Pacific-12 Conference",38537,962429767,24974,887,68578362,77315,117,20643873,176443,28662
+"145","University of California-Davis",110644,2012,"Football Championship Subdivision",NA,31646,955813809,30203,570,26984595,47341,101,3273094,32407,27829
+"146","University of California-Irvine",110653,2012,"No Football Subdivision",NA,29061,718540093,24725,317,15352662,48431,NA,NA,NA,23882
+"147","University of California-Los Angeles",110662,2012,"Football Bowl Subdivision","Pacific-12 Conference",40491,1967319498,48587,760,71731776,94384,108,19193346,177716,30180
+"148","University of California-Riverside",110671,2012,"No Football Subdivision",NA,20645,335713631,16261,282,14707554,52154,NA,NA,NA,19930
+"149","University of California-Santa Barbara",110705,2012,"No Football Subdivision",NA,22831,370834501,16243,441,16293499,36947,NA,NA,NA,20557
+"150","University of Central Arkansas",106704,2012,"Football Championship Subdivision",NA,10251,96231956,9388,353,9658874,27362,94,2567677,27316,10753
+"151","University of Central Florida",132903,2012,"Football Bowl Subdivision","Conference USA",51477,437213361,8493,414,40009614,96642,118,13642206,115612,59332
+"152","University of Cincinnati",201885,2012,"Football Bowl Subdivision","Big East Conference",30217,444155027,14699,462,49868204,107940,105,12267165,116830,25928
+"153","University of Colorado Boulder",126614,2012,"Football Bowl Subdivision","Pacific-12 Conference",29499,490303505,16621,327,54257246,165924,114,14225803,124788,29290
+"154","University of Connecticut",129020,2012,"Football Bowl Subdivision","Big East Conference",23907,691971255,28944,641,63828620,99577,105,14445522,137576,18920
+"155","University of Delaware",130943,2012,"Football Championship Subdivision",NA,21654,464780698,21464,593,31115528,52471,104,5637069,54203,19299
+"156","University of Florida",134130,2012,"Football Bowl Subdivision","Southeastern Conference",47877,847349444,17698,518,105102198,202900,125,23245846,185967,35895
+"157","University of Georgia",139959,2012,"Football Bowl Subdivision","Southeastern Conference",35019,395877707,11305,534,88923561,166524,118,22710140,192459,29115
+"158","University of Hawaii at Manoa",141574,2012,"Football Bowl Subdivision","Western Athletic Conference",17315,380917600,21999,474,40319775,85063,119,10583552,88937,17097
+"159","University of Houston",225511,2012,"Football Bowl Subdivision","Conference USA",33490,400316756,11953,433,36395207,84054,141,9108384,64598,36468
+"160","University of Idaho",142285,2012,"Football Bowl Subdivision","Western Athletic Conference",11083,147599417,13318,326,18371540,56354,108,5987302,55438,11534
+"161","University of Illinois at Chicago",145600,2012,"No Football Subdivision",NA,28348,800647117,28244,310,12983073,41881,NA,NA,NA,18270
+"162","University of Illinois at Urbana-Champaign",145637,2012,"Football Bowl Subdivision","Big Ten Conference",48738,837682684,17187,496,76740736,154719,105,16712294,159165,33550
+"163","University of Iowa",153658,2012,"Football Bowl Subdivision","Big Ten Conference",28043,541336054,19304,677,104658746,154592,121,21757190,179811,24358
+"164","University of Kansas",155317,2012,"Football Bowl Subdivision","Big 12 Conference",25742,504713860,19607,608,78973441,129891,127,20548723,161801,21091
+"165","University of Kentucky",157085,2012,"Football Bowl Subdivision","Southeastern Conference",26546,390842881,14723,472,84929819,179936,120,12668099,105567,22068
+"166","University of Louisiana at Lafayette",160658,2012,"Football Bowl Subdivision","Sun Belt Conference",14876,125043967,8406,372,17532577,47131,124,6868076,55388,16935
+"167","University of Louisiana at Monroe",159993,2012,"Football Bowl Subdivision","Sun Belt Conference",7429,76299637,10271,310,10769839,34741,104,3705521,35630,8118
+"168","University of Louisville",157289,2012,"Football Bowl Subdivision","Big East Conference",18058,375488220,20793,555,84133793,151592,117,18769538,160423,18561
+"169","University of Maine",161253,2012,"Football Championship Subdivision",NA,9022,137465585,15237,431,18653080,43279,92,3897654,42366,9893
+"170","University of Maryland Eastern Shore",163338,2012,"No Football Subdivision",NA,4527,57800633,12768,166,5706043,34374,NA,NA,NA,4244
+"171","University of Maryland-Baltimore County",163268,2012,"No Football Subdivision",NA,11226,156491838,13940,367,14526343,39581,NA,NA,NA,12684
+"172","University of Maryland-College Park",163286,2012,"Football Bowl Subdivision","Atlantic Coast Conference",35946,616372036,17147,599,68109639,113706,107,15359814,143550,31019
+"173","University of Massachusetts Amherst",166629,2012,"Football Championship Subdivision",NA,27342,495099898,18108,623,29465734,47297,100,5893382,58934,24928
+"174","University of Massachusetts-Lowell",166513,2012,"Division II",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,14939
+"175","University of Memphis",220862,2012,"Football Bowl Subdivision","Conference USA",18442,278407937,15096,383,46786144,122157,104,12941164,124434,20443
+"176","University of Michigan",170976,2012,"Football Bowl Subdivision","Big Ten Conference",43659,1285036422,29433,863,115200187,133488,114,23640337,207371,28821
+"177","University of Minnesota-Twin Cities",174066,2012,"Football Bowl Subdivision","Big Ten Conference",53970,1035489680,19186,812,83619526,102980,119,16177355,135944,44332
+"178","University of Mississippi",176017,2012,"Football Bowl Subdivision","Southeastern Conference",20240,447260193,22098,383,51708064,135008,120,18739684,156164,18042
+"179","University of Missouri-Columbia",178396,2012,"Football Bowl Subdivision","Big 12 Conference",30013,425474619,14176,522,66980889,128316,133,15298186,115024,28858
+"180","University of Missouri-Kansas City",178402,2012,"No Football Subdivision",NA,11877,246316990,20739,227,12095001,53282,NA,NA,NA,14357
+"181","University of Nebraska at Omaha",181394,2012,"No Football Subdivision",NA,12037,128277862,10657,254,NA,NA,NA,NA,NA,14267
+"182","University of Nebraska-Lincoln",181464,2012,"Football Bowl Subdivision","Big Ten Conference",21477,276005728,12851,601,77037282,128182,150,18649948,124333,20454
+"183","University of Nevada-Las Vegas",182281,2012,"Football Bowl Subdivision","Mountain West Conference",24567,317702809,12932,380,58691671,154452,104,6925177,66588,25905
+"184","University of Nevada-Reno",182290,2012,"Football Bowl Subdivision","Western Athletic Conference",15058,299959508,19920,388,22177509,57159,108,5573856,51610,16940
+"185","University of New Hampshire",183044,2012,"Football Championship Subdivision",NA,15082,208602335,13831,500,24716355,49433,94,4064025,43234,13599
+"186","University of New Mexico",187985,2012,"Football Bowl Subdivision","Mountain West Conference",24522,317750515,12958,486,44321779,91197,115,8517413,74064,24397
+"187","University of New Orleans",159939,2012,"No Football Subdivision",NA,8832,101384859,11479,111,2955212,26624,NA,NA,NA,9414
+"188","University of North Carolina at Asheville",199111,2012,"No Football Subdivision",NA,3391,48316491,14248,183,5535771,30250,NA,NA,NA,4413
+"189","University of North Carolina at Chapel Hill",199120,2012,"Football Bowl Subdivision","Atlantic Coast Conference",28300,881817332,31160,752,81921783,108939,112,19361868,172874,19688
+"190","University of North Carolina at Charlotte",199139,2012,"No Football Subdivision",NA,21995,268877709,12224,309,20265479,65584,NA,NA,NA,24170
+"191","University of North Carolina at Greensboro",199148,2012,"No Football Subdivision",NA,16585,219938920,13261,213,13223347,62081,NA,NA,NA,17034
+"192","University of North Carolina at Wilmington",199218,2012,"No Football Subdivision",NA,12496,145415666,11637,383,11754878,30692,NA,NA,NA,13967
+"193","University of North Dakota",200280,2012,"Football Championship Subdivision",NA,13026,258636792,19855,420,20073382,47794,98,NA,NA,14235
+"194","University of North Florida",136172,2012,"No Football Subdivision",NA,14101,119851459,8500,260,9046624,34795,NA,NA,NA,17352
+"195","University of North Texas",227216,2012,"Football Bowl Subdivision","Sun Belt Conference",31723,382911606,12070,343,26542476,77383,106,12003434,113240,34508
+"196","University of Northern Colorado",127741,2012,"Football Championship Subdivision",NA,11546,135923923,11772,416,11743605,28230,99,2758233,27861,11829
+"197","University of Northern Iowa",154095,2012,"Football Championship Subdivision",NA,12081,155592757,12879,381,16890627,44332,95,3329150,35044,12023
+"198","University of Oklahoma",207500,2012,"Football Bowl Subdivision","Big 12 Conference",22875,374128886,16355,568,96250328,169455,115,23674490,205865,23100
+"199","University of Oregon",209551,2012,"Football Bowl Subdivision","Pacific-12 Conference",24042,365392665,15198,465,89709350,192923,109,19402937,178009,23418
+"200","University of Rhode Island",217484,2012,"Football Championship Subdivision",NA,15897,207240905,13036,437,25016244,57245,84,3736644,44484,15584
+"201","University of South Alabama",102094,2012,"Football Championship Subdivision",NA,13590,205415047,15115,343,18816817,54860,128,7255599,56684,13079
+"202","University of South Carolina",218663,2012,"Football Bowl Subdivision","Southeastern Conference",30503,418914050,13734,547,84963037,155325,113,22197204,196435,25055
+"203","University of South Carolina Upstate",218742,2012,"No Football Subdivision",NA,4995,57257993,11463,251,7010024,27928,NA,NA,NA,6257
+"204","University of South Dakota",219471,2012,"Football Championship Subdivision",NA,8371,112399969,13427,349,10148016,29077,89,NA,NA,9977
+"205","University of South Florida",137351,2012,"Football Bowl Subdivision","Big East Conference",36069,446553167,12381,473,43067025,91051,115,12641752,109928,36828
+"206","University of Southern Mississippi",176372,2012,"Football Bowl Subdivision","Conference USA",14080,147857835,10501,340,21914136,64453,118,7177341,60825,15682
+"207","University of Toledo",206084,2012,"Football Bowl Subdivision","Mid-American Conference",20266,324343990,16004,388,22381963,57685,111,7457181,67182,18229
+"208","University of Utah",230764,2012,"Football Bowl Subdivision","Pacific-12 Conference",28732,415295626,14454,419,43719503,104342,123,15713226,127750,30413
+"209","University of Vermont",231174,2012,"No Football Subdivision",NA,12407,281867503,22718,398,17949954,45100,NA,NA,NA,13140
+"210","University of Virginia",234076,2012,"Football Bowl Subdivision","Atlantic Coast Conference",24116,543394521,22533,694,75437849,108700,128,17319041,135305,18133
+"211","University of Washington",236948,2012,"Football Bowl Subdivision","Pacific-12 Conference",45210,1306330123,28895,685,73833643,107786,107,25368852,237092,32139
+"212","University of Wisconsin-Green Bay",240277,2012,"No Football Subdivision",NA,5507,62222393,11299,242,7847963,32430,NA,NA,NA,7878
+"213","University of Wisconsin-Madison",240444,2012,"Football Bowl Subdivision","Big Ten Conference",37314,715327572,19170,878,102275206,116487,120,24231299,201927,33353
+"214","University of Wisconsin-Milwaukee",240453,2012,"No Football Subdivision",NA,25017,321224201,12840,309,12257732,39669,NA,NA,NA,27921
+"215","University of Wyoming",240727,2012,"Football Bowl Subdivision","Mountain West Conference",11244,226033474,20103,370,30476152,82368,102,7209442,70681,11495
+"216","Utah State University",230728,2012,"Football Bowl Subdivision","Western Athletic Conference",22118,223240972,10093,373,21565777,57817,110,5882890,53481,29848
+"217","Utah Valley University",230737,2012,"No Football Subdivision",NA,24495,199927648,8162,292,9590298,32843,NA,NA,NA,40549
+"218","Virginia Commonwealth University",234030,2012,"No Football Subdivision",NA,28712,445105927,15502,266,23760993,89327,NA,NA,NA,26677
+"219","Virginia Military Institute",234085,2012,"Football Championship Subdivision",NA,1836,43346669,23609,428,11092350,25917,105,3277336,31213,1804
+"220","Virginia Polytechnic Institute and State University",233921,2012,"Football Bowl Subdivision","Atlantic Coast Conference",31303,375429903,11993,584,66970798,114676,137,24718021,180424,24786
+"221","Washington State University",236939,2012,"Football Bowl Subdivision","Pacific-12 Conference",27363,333722601,12196,492,47962255,97484,136,12720020,93530,25835
+"222","Weber State University",230782,2012,"Football Championship Subdivision",NA,17621,141389171,8024,331,11610450,35077,102,2613188,25619,33394
+"223","West Virginia University",238032,2012,"Football Bowl Subdivision","Big East Conference",29453,459173734,15590,533,92968960,174426,125,17190592,137525,24670
+"224","Western Carolina University",200004,2012,"Football Championship Subdivision",NA,8600,104883821,12196,326,11605915,35601,98,3372801,34416,9233
+"225","Western Illinois University",149772,2012,"Football Championship Subdivision",NA,11136,180791404,16235,422,11109292,26325,106,2752636,25968,11684
+"226","Western Kentucky University",157951,2012,"Football Bowl Subdivision","Sun Belt Conference",17257,214070201,12405,413,25770262,62398,115,5883389,51160,21146
+"227","Western Michigan University",172699,2012,"Football Bowl Subdivision","Mid-American Conference",21486,296114554,13782,360,27817159,77270,106,6047695,57054,21374
+"228","Wichita State University",156125,2012,"No Football Subdivision",NA,11916,126264193,10596,265,21564660,81376,NA,NA,NA,14278
+"229","Winthrop University",218964,2012,"No Football Subdivision",NA,5517,81078243,14696,257,11019828,42879,NA,NA,NA,5573
+"230","Wright State University",206604,2012,"No Football Subdivision",NA,15529,233308358,15024,273,10226716,37460,NA,NA,NA,15086
+"231","Youngstown State University",206695,2012,"Football Championship Subdivision",NA,12097,135537530,11204,362,12546718,34659,99,3411666,34461,14702

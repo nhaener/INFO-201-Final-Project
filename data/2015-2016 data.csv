@@ -1,0 +1,232 @@
+"","Data","UNITID","Year","NCAA Subdivision","FBS Conference","FTE Students","Total Academic Spending","Academic Spending per FTE Student","Unduplicated Athletes (Headcount)","Total Athletic Spending","Athletic Spending per Athlete","Football Players","Total Football Spending","Football Spending per Football Player","Attendance 2016"
+"1","Alabama A & M University",100654,2015,"Football Championship Subdivision",NA,4606,78578883,17060,261,10015107,38372,90,2854623,31718,4865
+"2","Alabama State University",100724,2015,"Football Championship Subdivision",NA,5452,90211968,16547,317,14597561,46049,92,3925177,42665,5373
+"3","Alcorn State University",175342,2015,"Football Championship Subdivision",NA,3212,40680401,12665,249,7368686,29593,76,2268671,29851,3304
+"4","Appalachian State University",197869,2015,"Football Bowl Subdivision","Sun Belt Conference",17921,211271522,11789,462,30648792,66339,110,5943876,54035,17469
+"5","Arizona State University",104151,2015,"Football Bowl Subdivision","Pacific-12 Conference",48470,740112724,15270,520,83873516,161295,121,27569960,227851,45594
+"6","Arkansas State University",106458,2015,"Football Bowl Subdivision","Sun Belt Conference",12059,96270019,7983,346,29211785,84427,122,15072254,123543,11198
+"7","Auburn University",100858,2015,"Football Bowl Subdivision","Southeastern Conference",24655,390073641,15821,487,115498047,237162,122,39577350,324405,22953
+"8","Austin Peay State University",219602,2015,"Football Championship Subdivision",NA,7983,100773547,12624,287,11995068,41795,89,2460980,27651,10669
+"9","Ball State University",150136,2015,"Football Bowl Subdivision","Mid-American Conference",19361,322043753,16634,443,25495662,57552,119,7020457,58995,18583
+"10","Binghamton University, The State University of New York",196079,2015,"No Football Subdivision",NA,16382,297014668,18131,430,15784558,36708,NA,NA,NA,14663
+"11","Boise State University",142115,2015,"Football Bowl Subdivision","Mountain West Conference",16173,193914690,11990,391,44227893,113115,107,16444287,153685,22234
+"12","Bowling Green State University",201441,2015,"Football Bowl Subdivision","Mid-American Conference",15736,211090290,13414,410,21823070,53227,104,5681208,54627,15849
+"13","California Polytechnic State University-San Luis Obispo",110422,2015,"Football Championship Subdivision",NA,18825,334680295,17779,523,24941566,47689,95,3671077,38643,20622
+"14","California State University-Bakersfield",110486,2015,"No Football Subdivision",NA,8171,108088557,13228,309,12940843,41880,NA,NA,NA,9229
+"15","California State University-Fresno",110556,2015,"Football Bowl Subdivision","Mountain West Conference",19746,240557115,12183,445,41535096,93337,112,9889651,88300,22308
+"16","California State University-Fullerton",110565,2015,"No Football Subdivision",NA,30176,382097470,12662,295,13877982,47044,NA,NA,NA,36593
+"17","California State University-Long Beach",110583,2015,"No Football Subdivision",NA,29729,385195737,12957,353,18721675,53036,NA,NA,NA,34062
+"18","California State University-Northridge",110608,2015,"No Football Subdivision",NA,31339,392960023,12539,391,14230752,36396,NA,NA,NA,38667
+"19","California State University-Sacramento",110617,2015,"Football Championship Subdivision",NA,23389,299194572,12792,464,22217565,47883,92,3493341,37971,29768
+"20","Central Connecticut State University",128771,2015,"Football Championship Subdivision",NA,9926,189846424,19126,376,14949486,39759,87,2121048,24380,11213
+"21","Central Michigan University",169248,2015,"Football Bowl Subdivision","Mid-American Conference",22345,281231727,12586,465,28491818,61273,115,6617204,57541,21479
+"22","Chicago State University",144005,2015,"No Football Subdivision",NA,4061,112699628,27752,161,7158169,44461,NA,NA,NA,3968
+"23","Citadel Military College of South Carolina",217864,2015,"Football Championship Subdivision",NA,3813,73485619,19272,344,16649300,48399,95,4638070,48822,2898
+"24","Clemson University",217882,2015,"Football Bowl Subdivision","Atlantic Coast Conference",21356,373703891,17499,465,82855674,178184,115,29025294,252394,19593
+"25","Cleveland State University",202134,2015,"No Football Subdivision",NA,14299,207440516,14507,265,11827556,44632,NA,NA,NA,14415
+"26","Coastal Carolina University",218724,2015,"Football Championship Subdivision",NA,9518,146225231,15363,423,25119220,59383,118,6344240,53765,10435
+"27","College of Charleston",217819,2015,"No Football Subdivision",NA,10805,170016658,15735,413,20164655,48825,NA,NA,NA,11319
+"28","College of William and Mary",231624,2015,"Football Championship Subdivision",NA,8332,184185693,22106,538,25280678,46990,101,5943134,58843,6890
+"29","Colorado State University",126818,2015,"Football Bowl Subdivision","Mountain West Conference",26517,414860783,15645,380,38781340,102056,116,12784326,110210,26719
+"30","Coppin State University",162283,2015,"No Football Subdivision",NA,2766,54706156,19778,135,3881777,28754,NA,NA,NA,3166
+"31","Delaware State University",130934,2015,"Football Championship Subdivision",NA,4145,80022461,19306,334,12452200,37282,80,3061582,38270,4413
+"32","East Carolina University",198464,2015,"Football Bowl Subdivision","American Athletic Conference",25452,399875911,15711,460,49352531,107288,126,10869391,86265,25671
+"33","East Tennessee State University",220075,2015,"No Football Subdivision",NA,12656,233123683,18420,238,15481446,65048,NA,NA,NA,12793
+"34","Eastern Illinois University",144892,2015,"Football Championship Subdivision",NA,8023,176559113,22007,472,13360791,28307,98,3308644,33762,8019
+"35","Eastern Kentucky University",156620,2015,"Football Championship Subdivision",NA,13736,183536487,13362,347,14570279,41989,118,3804563,32242,16253
+"36","Eastern Michigan University",169798,2015,"Football Bowl Subdivision","Mid-American Conference",17540,250229665,14266,682,33956234,49789,107,7952838,74326,20388
+"37","Eastern Washington University",235097,2015,"Football Championship Subdivision",NA,11917,144764304,12148,290,14307543,49336,90,4484906,49832,12580
+"38","Florida Agricultural and Mechanical University",133650,2015,"Football Championship Subdivision",NA,9893,178675666,18061,330,12351422,37429,126,2886835,22911,9130
+"39","Florida Atlantic University",133669,2015,"Football Bowl Subdivision","Conference USA",24337,304366317,12506,424,29794361,70270,115,6082156,52888,32087
+"40","Florida Gulf Coast University",433660,2015,"No Football Subdivision",NA,12268,126219190,10288,249,13583745,54553,NA,NA,NA,15223
+"41","Florida International University",133951,2015,"Football Bowl Subdivision","Conference USA",44712,557571629,12470,390,30483759,78163,101,9194701,91037,55100
+"42","Florida State University",134097,2015,"Football Bowl Subdivision","Atlantic Coast Conference",39157,547160134,13973,505,111386681,220568,120,31689962,264083,35129
+"43","George Mason University",232186,2015,"No Football Subdivision",NA,27611,454199252,16450,486,28765782,59189,NA,NA,NA,30789
+"44","Georgia Institute of Technology",139755,2015,"Football Bowl Subdivision","Atlantic Coast Conference",23596,413963701,17544,442,74979077,169636,116,18041532,155530,16694
+"45","Georgia Southern University",139931,2015,"Football Bowl Subdivision","Sun Belt Conference",18966,210287236,11088,393,20172581,51330,135,5139515,38070,20522
+"46","Georgia State University",139940,2015,"Football Bowl Subdivision","Sun Belt Conference",31702,356393398,11242,388,27586906,71100,125,7434514,59476,29438
+"47","Grambling State University",159009,2015,"Football Championship Subdivision",NA,4098,50348995,12286,288,7411733,25735,90,2554600,28384,4202
+"48","Idaho State University",142276,2015,"Football Championship Subdivision",NA,10702,145893830,13632,286,12296515,42995,85,3321881,39081,13626
+"49","Illinois State University",145813,2015,"Football Championship Subdivision",NA,18850,339128479,17991,432,26201435,60651,114,4100765,35972,19898
+"50","Indiana State University",151324,2015,"Football Championship Subdivision",NA,12407,144192154,11622,349,14017870,40166,95,3545668,37323,14331
+"51","Indiana University-Bloomington",151351,2015,"Football Bowl Subdivision","Big Ten Conference",41697,877956714,21056,698,88330530,126548,136,18208699,133887,40945
+"52","Indiana University-Purdue University-Fort Wayne",151102,2015,"No Football Subdivision",NA,8989,102811580,11437,249,7677844,30835,NA,NA,NA,14092
+"53","Indiana University-Purdue University-Indianapolis",151111,2015,"No Football Subdivision",NA,28315,623237566,22011,264,9306307,35251,NA,NA,NA,25859
+"54","Iowa State University",153603,2015,"Football Bowl Subdivision","Big 12 Conference",32521,484968939,14912,406,75209309,185245,126,15420582,122386,32246
+"55","Jackson State University",175856,2015,"Football Championship Subdivision",NA,8676,120032134,13835,272,8361416,30741,78,1993962,25564,8693
+"56","Jacksonville State University",101480,2015,"Football Championship Subdivision",NA,7232,84958811,11748,342,13215127,38641,125,3672238,29378,8628
+"57","James Madison University",232423,2015,"Football Championship Subdivision",NA,20442,278079255,13603,465,44825701,96399,109,8239316,75590,21306
+"58","Kansas State University",155399,2015,"Football Bowl Subdivision","Big 12 Conference",21606,387311023,17926,494,67316209,136268,128,16062328,125487,21725
+"59","Kennesaw State University",140164,2015,"Football Championship Subdivision",NA,NA,NA,NA,297,20144745,67827,83,2439951.14,29397,NA
+"60","Kent State University",203517,2015,"Football Bowl Subdivision","Mid-American Conference",27347,343190860,12549,374,26291980,70299,106,5387046,50821,27443
+"61","Lamar University",226091,2015,"Football Championship Subdivision",NA,14229,139269571,9788,330,15905721,48199,94,3626173,38576,11465
+"62","Longwood University",232566,2015,"No Football Subdivision",NA,4891,63391038,12961,222,10021345,45141,NA,NA,NA,5256
+"63","Louisiana State University and Agricultural & Mechanical College",159391,2015,"Football Bowl Subdivision","Southeastern Conference",29009,426019096,14686,448,121947775,272205,120,28208608,235072,27720
+"64","Louisiana Tech University",159647,2015,"Football Bowl Subdivision","Conference USA",9091,79050441,8695,320,21849418,68279,100,6513456,65135,12174
+"65","Marshall University",237525,2015,"Football Bowl Subdivision","Conference USA",11861,158278036,13344,360,27397209,76103,106,7964531,75137,11018
+"66","McNeese State University",159717,2015,"Football Championship Subdivision",NA,7048,58013335,8231,377,11241698,29819,129,2913446,22585,8361
+"67","Miami University",204024,2015,"Football Bowl Subdivision","Mid-American Conference",18593,301608714,16222,515,32756388,63605,115,8009180,69645,17717
+"68","Michigan State University",171100,2015,"Football Bowl Subdivision","Big Ten Conference",45353,930683973,20521,735,108283151,147324,115,33703851,293077,42452
+"69","Middle Tennessee State University",220978,2015,"Football Bowl Subdivision","Conference USA",19621,256574190,13077,369,31671166,85830,142,9387830,66111,23722
+"70","Mississippi State University",176080,2015,"Football Bowl Subdivision","Southeastern Conference",18805,193928498,10313,359,69493395,193575,109,17213522,157922,19030
+"71","Mississippi Valley State University",176044,2015,"Football Championship Subdivision",NA,2040,32198316,15783,243,4075217,16770,75,1327758,17703,2355
+"72","Missouri State University",179566,2015,"Football Championship Subdivision",NA,15188,179848544,11841,433,25180896,58154,119,3630361,30507,21809
+"73","Montana State University",180461,2015,"Football Championship Subdivision",NA,13551,159760405,11790,316,18815514,59543,106,6081458,57372,15081
+"74","Morehead State University",157386,2015,"Football Championship Subdivision",NA,7602,108340364,14252,316,11685666,36980,102,1258384,12337,10959
+"75","Morgan State University",163453,2015,"Football Championship Subdivision",NA,6553,117982734,18004,274,11734582,42827,117,2949024,25205,7041
+"76","Murray State University",157401,2015,"Football Championship Subdivision",NA,9139,127917102,13997,326,15139758,46441,90,2703219,30036,10225
+"77","New Jersey Institute of Technology",185828,2015,"No Football Subdivision",NA,8757,148281494,16933,272,13648104,50177,NA,NA,NA,8992
+"78","New Mexico State University",188030,2015,"Football Bowl Subdivision","Sun Belt Conference",13351,176775803,13241,404,26874116,66520,117,6436788,55015,14169
+"79","Nicholls State University",159966,2015,"Football Championship Subdivision",NA,5757,58127560,10097,328,8203578,25011,125,2281240,18250,6454
+"80","Norfolk State University",232937,2015,"Football Championship Subdivision",NA,5408,85358017,15784,299,16081787,53785,98,5794691,59130,5078
+"81","North Carolina A & T State University",199102,2015,"Football Championship Subdivision",NA,9764,128631232,13174,274,11873742,43335,95,3211136,33801,10489
+"82","North Carolina Central University",199157,2015,"Football Championship Subdivision",NA,7412,120901371,16312,329,11737458,35676,125,3405543,27244,7226
+"83","North Carolina State University at Raleigh",199193,2015,"Football Bowl Subdivision","Atlantic Coast Conference",30116,578012213,19193,514,73074396,142168,115,20233959,175947,27249
+"84","North Dakota State University",200332,2015,"Football Championship Subdivision",NA,13299,183215099,13777,418,22268430,53274,117,4647756,39724,13063
+"85","Northern Arizona University",105330,2015,"Football Championship Subdivision",NA,26933,336927417,12510,342,17974818,52558,105,4015813,38246,28303
+"86","Northern Illinois University",147703,2015,"Football Bowl Subdivision","Mid-American Conference",17568,340728533,19395,410,27276559,66528,113,8359003.55,73973,16344
+"87","Northern Kentucky University",157447,2015,"No Football Subdivision",NA,12199,176501829,14469,256,13367865,52218,NA,NA,NA,14417
+"88","Northwestern State University of Louisiana",160038,2015,"Football Championship Subdivision",NA,7517,72581878,9656,351,11429999,32564,128,2706906,21148,10199
+"89","Oakland University",171571,2015,"No Football Subdivision",NA,17288,231736890,13404,324,14138441,43637,NA,NA,NA,19641
+"90","Ohio University",204857,2015,"Football Bowl Subdivision","Mid-American Conference",27490,424522226,15443,401,27110443,67607,120,7745654,64547,27817
+"91","Oklahoma State University",207388,2015,"Football Bowl Subdivision","Big 12 Conference",22851,269058062,11774,496,93144396,187791,135,19523281,144617,23193
+"92","Old Dominion University",232982,2015,"Football Bowl Subdivision","Conference USA",20448,279884654,13688,527,42780118,81177,125,8709737,69678,22680
+"93","Oregon State University",209542,2015,"Football Bowl Subdivision","Pacific-12 Conference",25185,357617364,14200,499,72557984,145407,105,14770240,140669,28849
+"94","Pennsylvania State University",214777,2015,"Football Bowl Subdivision","Big Ten Conference",49044,1425496816,29066,827,122271407,147849,115,33528252,291550,43073
+"95","Portland State University",209807,2015,"Football Championship Subdivision",NA,21241,237097006,11162,290,15100335,52070,111,3988188,35930,28348
+"96","Prairie View A & M University",227526,2015,"Football Championship Subdivision",NA,7643,102147682,13365,402,10363199,25779,91,2687272,29530,7650
+"97","Purdue University",243780,2015,"Football Bowl Subdivision","Big Ten Conference",39147,815525057,20832,533,74420334,139625,105,15663882,149180,31985
+"98","Radford University",233277,2015,"No Football Subdivision",NA,9586,120331536,12553,241,11794472,48940,NA,NA,NA,9379
+"99","Rutgers, The State University of New Jersey-New Brunswick",186380,2015,"Football Bowl Subdivision","Big Ten Conference",47771,1112546570,23289,615,70558935,114730,111,18660865,168116,39735
+"100","Sam Houston State University",227881,2015,"Football Championship Subdivision",NA,16925,187686969,11089,387,15390653,39769,132,3916368,29669,19163
+"101","San Diego State University",122409,2015,"Football Bowl Subdivision","Mountain West Conference",29877,408854959,13685,546,53607909,98183,127,13026414,102570,30960
+"102","San Jose State University",122755,2015,"Football Bowl Subdivision","Mountain West Conference",25270,339258207,13425,433,28479255,65772,108,7108789,65822,27855
+"103","Savannah State University",140960,2015,"Football Championship Subdivision",NA,4499,49604707,11026,262,6409247,24463,87,2168268,24923,5266
+"104","South Carolina State University",218733,2015,"Football Championship Subdivision",NA,3017,53208003,17636,250,9179400,36718,107,2888729,26997,2875
+"105","South Dakota State University",219356,2015,"Football Championship Subdivision",NA,10575,132158230,12497,492,16417153,33368,96,3005630,31309,13235
+"106","Southeast Missouri State University",179557,2015,"Football Championship Subdivision",NA,9944,113786661,11443,336,11923049,35485,104,2729916,26249,12162
+"107","Southeastern Louisiana University",160612,2015,"Football Championship Subdivision",NA,11711,104274480,8904,377,12528745,33233,129,3781785,29316,16501
+"108","Southern Illinois University-Carbondale",149222,2015,"Football Championship Subdivision",NA,16923,524164330,30973,427,25427042,59548,111,3938763.89,35484,14593
+"109","Southern Illinois University-Edwardsville",149231,2015,"No Football Subdivision",NA,12462,243182549,19514,258,8867986,34372,NA,NA,NA,13163
+"110","Southern University and A & M College",160621,2015,"Football Championship Subdivision",NA,6068,75105519,12377,361,13433528,37212,108,3630202,33613,11717
+"111","Southern Utah University",230603,2015,"Football Championship Subdivision",NA,6800,105121692,15459,295,10562560,35805,79,2412366,30536,14451
+"112","Stephen F Austin State University",228431,2015,"Football Championship Subdivision",NA,11133,142800456,12827,335,16269626,48566,95,3881887,40862,12040
+"113","Stony Brook University",196097,2015,"Football Championship Subdivision",NA,23849,719583543,30172,402,28141595,70004,94,4965226,52822,19410
+"114","Tennessee State University",221838,2015,"Football Championship Subdivision",NA,7693,116948981,15202,192,12831317,66830,101,3985499,39460,8222
+"115","Tennessee Technological University",221847,2015,"Football Championship Subdivision",NA,10124,123364016,12185,278,14016396,50419,101,3237384,32053,10658
+"116","Texas A & M University",228723,2015,"Football Bowl Subdivision","Southeastern Conference",55621,1074293737,19315,577,109313651,189452,119,23828299,200238,51788
+"117","Texas A & M University-Corpus Christi",224147,2015,"No Football Subdivision",NA,9503,108477307,11415,229,10744548,46919,NA,NA,NA,10685
+"118","Texas Southern University",229063,2015,"Football Championship Subdivision",NA,8263,137761211,16672,290,10222016,35248,88,2874286,32662,7720
+"119","Texas State University",228459,2015,"Football Bowl Subdivision","Sun Belt Conference",31806,330131717,10380,373,33908581,90908,120,6962761,58023,36791
+"120","Texas Tech University",229115,2015,"Football Bowl Subdivision","Big 12 Conference",32074,354321564,11047,423,76525961,180912,127,26165385,206027,31494
+"121","The Ohio State University",204796,2015,"Football Bowl Subdivision","Big Ten Conference",57432,1378635153,24005,1050,154033208,146698,118,29236140,247764,48487
+"122","The University of Alabama",100751,2015,"Football Bowl Subdivision","Southeastern Conference",33853,543024121,16041,632,132354913,209422,130,48640971,374161,35199
+"123","The University of Montana",180489,2015,"Football Championship Subdivision",NA,11790,165468461,14035,343,23823841,69457,113,5463095,48346,12291
+"124","The University of Tennessee",221759,2015,"Football Bowl Subdivision","Southeastern Conference",26681,462996498,17353,539,113413325,210414,135,38920641,288301,23677
+"125","The University of Tennessee at Chattanooga",221740,2015,"Football Championship Subdivision",NA,10374,132947355,12815,295,17359207,58845,99,4125087,41668,11060
+"126","The University of Tennessee at Martin",221768,2015,"Football Championship Subdivision",NA,6470,82648207,12774,353,10602110,30034,91,3144830,34559,7256
+"127","The University of Texas at Arlington",228769,2015,"No Football Subdivision",NA,34692,338615237,9761,236,11748874,49783,NA,NA,NA,39975
+"128","The University of Texas at Austin",228778,2015,"Football Bowl Subdivision","Big 12 Conference",46079,1108529809,24057,563,173248133,307723,126,25862105,205255,42193
+"129","The University of Texas at El Paso",228796,2015,"Football Bowl Subdivision","Conference USA",18482,190161891,10289,300,29395257,97984,105,9932288,94593,23771
+"130","The University of Texas at San Antonio",229027,2015,"Football Bowl Subdivision","Conference USA",24244,290002664,11962,368,26177864,71136,117,8508786,72725,27364
+"131","The University of Texas Rio Grande Valley",227368,2015,"No Football Subdivision",NA,18461,183852050,9959,204,10064057,49334,NA,NA,NA,27811
+"132","Towson University",164076,2015,"Football Championship Subdivision",NA,19948,233597190,11710,508,25493298,50184,96,4080292,42503,21337
+"133","Troy University",102368,2015,"Football Bowl Subdivision","Sun Belt Conference",14096,169994259,12060,432,27056669,62631,147,7967269,54199,17375
+"134","United States Air Force Academy",128328,2015,"Football Bowl Subdivision","Mountain West Conference",4874,341602703,70087,777,43481337,55961,NA,11453218,NA,4112
+"135","United States Military Academy",197036,2015,"Football Bowl Subdivision","Independent",4498,323050795,71821,922,37210925,40359,NA,9285751,NA,4536
+"136","University at Albany, State University of New York",196060,2015,"Football Championship Subdivision",NA,15650,319607938,20422,505,18148836,35938,109,3583083,32872,14671
+"137","University at Buffalo, The State University of New York",196088,2015,"Football Bowl Subdivision","Mid-American Conference",26794,691928105,25824,521,31909540,61247,107,7271745,67960,22503
+"138","University of Akron",200800,2015,"Football Bowl Subdivision","Mid-American Conference",20916,275979008,13195,432,34070009,78866,105,7247876,69027,21460
+"139","University of Alabama at Birmingham",100663,2015,"Football Bowl Subdivision","Conference USA",16538,460766632,27861,427,31066375,72755,135,6855195,50779,13440
+"140","University of Arizona",104179,2015,"Football Bowl Subdivision","Pacific-12 Conference",39398,710711970,18039,480,80706045,168138,125,19654737,157238,36246
+"141","University of Arkansas",106397,2015,"Football Bowl Subdivision","Southeastern Conference",24069,311194255,12929,490,97106539,198177,120,30795323,256628,23946
+"142","University of Arkansas at Little Rock",106245,2015,"No Football Subdivision",NA,8856,108185245,12216,165,9855082,59728,NA,NA,NA,10900
+"143","University of Arkansas at Pine Bluff",106412,2015,"Football Championship Subdivision",NA,2340,33879999,14479,234,6622798,28303,90,1619805,17998,2798
+"144","University of California-Berkeley",110635,2015,"Football Bowl Subdivision","Pacific-12 Conference",39614,1326988132,33498,931,94016545,100984,134,31353054,233978,29591
+"145","University of California-Davis",110644,2015,"Football Championship Subdivision",NA,33913,1180461721,34809,571,31870332,55815,101,4127348,40865,30215
+"146","University of California-Irvine",110653,2015,"No Football Subdivision",NA,32176,940666574,29235,342,18079235,52863,NA,NA,NA,26991
+"147","University of California-Los Angeles",110662,2015,"Football Bowl Subdivision","Pacific-12 Conference",42995,2635000387,61286,760,96912767,127517,123,26858792,218364,31906
+"148","University of California-Riverside",110671,2015,"No Football Subdivision",NA,21367,432606410,20246,304,16015324,52682,NA,NA,NA,19765
+"149","University of California-Santa Barbara",110705,2015,"No Football Subdivision",NA,23761,464494098,19549,482,17991617,37327,NA,NA,NA,21897
+"150","University of Central Arkansas",106704,2015,"Football Championship Subdivision",NA,10628,109682457,10320,373,12381046,33193,102,3129909,30685,11158
+"151","University of Central Florida",132903,2015,"Football Bowl Subdivision","American Athletic Conference",51734,509602744,9850,463,47647475,102910,125,21534495,172276,63692
+"152","University of Cincinnati",201885,2015,"Football Bowl Subdivision","American Athletic Conference",32212,506201100,15715,465,51717370,111220,112,13260455,118397,28056
+"153","University of Colorado Boulder",126614,2015,"Football Bowl Subdivision","Pacific-12 Conference",29446,592028853,20106,340,65273311,191980,112,17039194,152136,30187
+"154","University of Connecticut",129020,2015,"Football Bowl Subdivision","American Athletic Conference",24772,916300608,36989,659,72062423,109351,99,14624106,147718,20152
+"155","University of Delaware",130943,2015,"Football Championship Subdivision",NA,22961,539139312,23481,608,32287704,53105,97,6512415,67138,20498
+"156","University of Florida",134130,2015,"Football Bowl Subdivision","Southeastern Conference",46700,979937084,20984,512,125384443,244891,109,37673205,345626,36703
+"157","University of Georgia",139959,2015,"Football Bowl Subdivision","Southeastern Conference",35460,438183798,12357,552,96559307,174926,122,26154335,214380,30197
+"158","University of Hawaii at Manoa",141574,2015,"Football Bowl Subdivision","Mountain West Conference",16957,516023159,30431,492,47061787,95654,110,10724823,97498,15844
+"159","University of Houston",225511,2015,"Football Bowl Subdivision","American Athletic Conference",34654,451069399,13016,398,45437942,114166,110,12758461,115986,39756
+"160","University of Idaho",142285,2015,"Football Bowl Subdivision","Sun Belt Conference",10200,162056193,15888,305,19248132,63109,101,6356771,62938,10784
+"161","University of Illinois at Chicago",145600,2015,"No Football Subdivision",NA,28352,967864710,34137,321,16217206,50521,NA,NA,NA,19184
+"162","University of Illinois at Urbana-Champaign",145637,2015,"Football Bowl Subdivision","Big Ten Conference",49959,1047914665,20975,456,87163188,191147,110,17229821,156635,34687
+"163","University of Iowa",153658,2015,"Football Bowl Subdivision","Big Ten Conference",27940,583572365,20887,638,109214651,171183,121,24428508,201888,25883
+"164","University of Kansas",155317,2015,"Football Bowl Subdivision","Big 12 Conference",25060,565995552,22586,435,92207877,211972,91,20793566,228501,20943
+"165","University of Kentucky",157085,2015,"Football Bowl Subdivision","Southeastern Conference",27070,407479178,15053,516,115159039,223176,129,18079566,140152,23877
+"166","University of Louisiana at Lafayette",160658,2015,"Football Bowl Subdivision","Sun Belt Conference",14987,146100180,9748,414,23034683,55639,128,8060535,62973,17975
+"167","University of Louisiana at Monroe",159993,2015,"Football Bowl Subdivision","Sun Belt Conference",6788,72990173,10753,323,12801041,39632,97,4596900,47391,8344
+"168","University of Louisville",157289,2015,"Football Bowl Subdivision","Atlantic Coast Conference",18395,428964413,23320,624,101624437,162860,122,18654530,152906,18219
+"169","University of Maine",161253,2015,"Football Championship Subdivision",NA,9305,152698181,16410,459,20118596,43831,94,3869339,41163,10277
+"170","University of Maryland Eastern Shore",163338,2015,"No Football Subdivision",NA,4232,67866427,16036,172,5931218,34484,NA,NA,NA,4073
+"171","University of Maryland-Baltimore County",163268,2015,"No Football Subdivision",NA,11513,177975847,15459,373,15843627,42476,NA,NA,NA,12942
+"172","University of Maryland-College Park",163286,2015,"Football Bowl Subdivision","Big Ten Conference",33619,739730370,22003,511,92558535,181132,107,16325467,152574,31050
+"173","University of Massachusetts Amherst",166629,2015,"Football Bowl Subdivision","Mid-American Conference",28150,582150251,20680,624,36897375,59130,110,7645373,69503,25988
+"174","University of Massachusetts-Lowell",166513,2015,"No Football Subdivision",NA,13460,246515842,18315,435,15837858,36409,NA,NA,NA,16166
+"175","University of Memphis",220862,2015,"Football Bowl Subdivision","American Athletic Conference",16803,268778068,15996,390,43287138,110993,117,13104127,112001,19345
+"176","University of Michigan",170976,2015,"Football Bowl Subdivision","Big Ten Conference",44584,1414393890,31724,867,151144964,174331,117,31887224,272540,29124
+"177","University of Minnesota-Twin Cities",174066,2015,"Football Bowl Subdivision","Big Ten Conference",54024,1155849444,21395,750,111162265,148216,126,26418204,209668,44505
+"178","University of Mississippi",176017,2015,"Football Bowl Subdivision","Southeastern Conference",22239,508726001,22875,391,82399898,210741,123,27040318,219840,20903
+"179","University of Missouri-Columbia",178396,2015,"Football Bowl Subdivision","Southeastern Conference",31526,502531522,15940,572,86859158,151852,127,21647918,170456,29984
+"180","University of Missouri-Kansas City",178402,2015,"No Football Subdivision",NA,12411,235259593,18956,260,14074330,54132,NA,NA,NA,13702
+"181","University of Nebraska at Omaha",181394,2015,"No Football Subdivision",NA,12604,158706992,12592,272,16333401,60049,NA,NA,NA,14621
+"182","University of Nebraska-Lincoln",181464,2015,"Football Bowl Subdivision","Big Ten Conference",21908,323125810,14749,596,98023037,164468,138,27482820,199151,21433
+"183","University of Nevada-Las Vegas",182281,2015,"Football Bowl Subdivision","Mountain West Conference",25824,393558017,15240,406,44935234,110678,108,9351201,86585,25566
+"184","University of Nevada-Reno",182290,2015,"Football Bowl Subdivision","Mountain West Conference",17457,346852514,19869,371,27013975,72814,114,7697843,67525,19708
+"185","University of New Hampshire",183044,2015,"Football Championship Subdivision",NA,15325,246538484,16087,524,27876601,53200,103,4996484,48510,13852
+"186","University of New Mexico",187985,2015,"Football Bowl Subdivision","Mountain West Conference",24456,371574065,15194,486,42180916,86792,116,7663137,66062,23419
+"187","University of New Orleans",159939,2015,"Football Championship Subdivision",NA,7424,93140458,12546,133,5291218,39784,NA,NA,NA,8131
+"188","University of North Carolina at Asheville",199111,2015,"No Football Subdivision",NA,3421,54993498,16075,210,6756299,32173,NA,NA,NA,4353
+"189","University of North Carolina at Chapel Hill",199120,2015,"Football Bowl Subdivision","Atlantic Coast Conference",28575,932320859,32627,771,89080843,115539,129,22310037,172946,19312
+"190","University of North Carolina at Charlotte",199139,2015,"Football Championship Subdivision",NA,24089,324837662,13485,397,28573920,71975,104,8254835,79373,25928
+"191","University of North Carolina at Greensboro",199148,2015,"No Football Subdivision",NA,16163,216638022,13403,240,15304624,63769,NA,NA,NA,18592
+"192","University of North Carolina at Wilmington",199218,2015,"No Football Subdivision",NA,13885,167027902,12029,329,12520175,38055,NA,NA,NA,14730
+"193","University of North Dakota",200280,2015,"Football Championship Subdivision",NA,13304,314229336,23619,456,24295578,53280,99,3554670,35906,14247
+"194","University of North Florida",136172,2015,"No Football Subdivision",NA,13666,145558262,10651,291,11717917,40268,NA,NA,NA,16481
+"195","University of North Texas",227216,2015,"Football Bowl Subdivision","Conference USA",31038,405323589,13059,322,31268741,97108,103,13077540,126966,34448
+"196","University of Northern Colorado",127741,2015,"Football Championship Subdivision",NA,10396,160630831,15451,344,15447073,44904,95,3286186,34591,10835
+"197","University of Northern Iowa",154095,2015,"Football Championship Subdivision",NA,10620,163563075,15401,400,19810525,49526,100,3898616,38986,11284
+"198","University of Oklahoma",207500,2015,"Football Bowl Subdivision","Big 12 Conference",23484,395842372,16856,591,123017251,208151,117,35369766,302306,23570
+"199","University of Oregon",209551,2015,"Football Bowl Subdivision","Pacific-12 Conference",23455,416024500,17737,474,103880557,219157,110,20724336,188403,22625
+"200","University of Rhode Island",217484,2015,"Football Championship Subdivision",NA,15932,221248498,13887,503,25309663,50317,104,4264325,41003,15742
+"201","University of South Alabama",102094,2015,"Football Bowl Subdivision","Sun Belt Conference",15059,234218338,15553,375,25123468,66996,133,9164542,68906,13267
+"202","University of South Carolina",218663,2015,"Football Bowl Subdivision","Southeastern Conference",33290,523903128,15738,559,107430044,192183,110,28478476,258895,25594
+"203","University of South Carolina Upstate",218742,2015,"No Football Subdivision",NA,5030,63885643,12701,238,7111696,29881,NA,NA,NA,6352
+"204","University of South Dakota",219471,2015,"Football Championship Subdivision",NA,8777,133335841,15192,383,14752570,38518,98,3006371,30677,10096
+"205","University of South Florida",137351,2015,"Football Bowl Subdivision","American Athletic Conference",36508,491844020,13472,472,46860838,99281,115,12016829,104494,34324
+"206","University of Southern Mississippi",176372,2015,"Football Bowl Subdivision","Conference USA",13283,164822860,12409,339,24546909,72410,120,7633450,63612,13747
+"207","University of Toledo",206084,2015,"Football Bowl Subdivision","Mid-American Conference",18707,339796340,18164,381,29902989,78486,105,7672810,73074,17965
+"208","University of Utah",230764,2015,"Football Bowl Subdivision","Pacific-12 Conference",29090,489007402,16810,417,58734014,140849,125,18817619,150541,28297
+"209","University of Vermont",231174,2015,"No Football Subdivision",NA,12094,308255301,25488,425,19916906,46863,NA,NA,NA,12804
+"210","University of Virginia",234076,2015,"Football Bowl Subdivision","Atlantic Coast Conference",24142,666895691,27624,767,91345925,119095,111,18170478,163698,18930
+"211","University of Washington",236948,2015,"Football Bowl Subdivision","Pacific-12 Conference",46926,1622122039,34568,632,104403253,165195,106,44193760,416922,34486
+"212","University of Wisconsin-Green Bay",240277,2015,"No Football Subdivision",NA,5128,64531335,12584,258,8516931,33011,NA,NA,NA,7719
+"213","University of Wisconsin-Madison",240444,2015,"Football Bowl Subdivision","Big Ten Conference",38174,800112414,20960,780,118691112,152168,112,30689254,274011,33400
+"214","University of Wisconsin-Milwaukee",240453,2015,"No Football Subdivision",NA,23446,351801316,15005,321,12916898,40240,NA,NA,NA,25552
+"215","University of Wyoming",240727,2015,"Football Bowl Subdivision","Mountain West Conference",11144,231720800,20793,454,33364169,73489,116,8061048,69492,11301
+"216","Utah State University",230728,2015,"Football Bowl Subdivision","Mountain West Conference",21746,252184443,11597,506,28287417,55904,112,7700571,68755,29981
+"217","Utah Valley University",230737,2015,"No Football Subdivision",NA,25705,224548148,8736,357,12106746,33912,NA,NA,NA,43017
+"218","Virginia Commonwealth University",234030,2015,"No Football Subdivision",NA,27662,513585402,18566,271,30683392,113223,NA,NA,NA,26531
+"219","Virginia Military Institute",234085,2015,"Football Championship Subdivision",NA,1918,49083771,25591,408,13022017,31917,95,3795174,39949,1762
+"220","Virginia Polytechnic Institute and State University",233921,2015,"Football Bowl Subdivision","Atlantic Coast Conference",31841,459070602,14418,574,77679721,135331,141,26153443,185485,26211
+"221","Washington State University",236939,2015,"Football Bowl Subdivision","Pacific-12 Conference",27445,436887513,15919,513,67386939,131359,139,16638377,119701,27313
+"222","Weber State University",230782,2015,"Football Championship Subdivision",NA,16988,163184275,9606,326,12227409,37507,100,3026923,30269,31790
+"223","West Virginia University",238032,2015,"Football Bowl Subdivision","Big 12 Conference",28748,511830353,17804,504,87265473,173146,131,17367769,132578,24343
+"224","Western Carolina University",200004,2015,"Football Championship Subdivision",NA,9411,120993870,12857,375,12170138,32454,114,3136158,27510,9890
+"225","Western Illinois University",149772,2015,"Football Championship Subdivision",NA,10232,205970234,20130,418,13348658,31935,105,3652131,34782,10355
+"226","Western Kentucky University",157951,2015,"Football Bowl Subdivision","Conference USA",16477,246672947,14971,434,30212548,69614,134,7253532,54131,20547
+"227","Western Michigan University",172699,2015,"Football Bowl Subdivision","Mid-American Conference",20201,327523744,16213,357,33255611,93153,107,8097331,75676,20265
+"228","Wichita State University",156125,2015,"No Football Subdivision",NA,11854,158219106,13347,290,25100692,86554,NA,NA,NA,12788
+"229","Winthrop University",218964,2015,"No Football Subdivision",NA,5441,81883875,15049,319,12220563,38309,NA,NA,NA,5640
+"230","Wright State University",206604,2015,"No Football Subdivision",NA,14422,221662118,15370,287,11663355,40639,NA,NA,NA,14240
+"231","Youngstown State University",206695,2015,"Football Championship Subdivision",NA,10752,131411657,12222,376,14946755,39752,103,4169693,40482,12964

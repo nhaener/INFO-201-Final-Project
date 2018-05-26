@@ -13,7 +13,7 @@ library("readxl")
 
 
 budget_data <- read_excel("data/Custom_Reporting_data.xls")
-range(budget_data$Year)
+colnames(budget_data)[colnames(budget_data)=="IPEDS ID"] <- "UNITID"
 
 
 # function to create the file name
@@ -33,13 +33,17 @@ filtering <- function(name) {
     select(UNITID, EFYTOTLT)
 }
 
-pre_join <- function(file_name) {
-  inner_join(budget_data, file_name)
+pre_join <- function(budget, school_data) {
+  left_join(budget, school_data, by="UNITID")
 }
 
-budget_filter <- function(file, year) {
-  
+budget_filter <- function(years) {
+  budget_year <- budget_data %>%
+    filter(Year == years)
 }
+
+
+
 # creates the varible to read the csv file
 file_2016 <- filename(2016)
 file_2015 <- filename(2015)
@@ -68,6 +72,7 @@ attendance_2006 <- import_data(file_2006)
 
 # filters the csv
 attendance_2016 <- filtering(attendance_2016)
+
 attendance_2015 <- filtering(attendance_2015)
 attendance_2014 <- filtering(attendance_2014)
 attendance_2013 <- filtering(attendance_2013)
@@ -85,16 +90,55 @@ attendance_2006 <- attendance_2006 %>%
   filter(EFFYLEV == 2) %>%
   select(UNITID, FYRACE24)
 
-# attendance_2016 <- pre_join(attendance_2016)
-# attendance_2015 <- pre_join(attendance_2015)
-# attendance_2014 <- pre_join(attendance_2014)
-# attendance_2013 <- pre_join(attendance_2013)
-# attendance_2012 <- pre_join(attendance_2012)
-# attendance_2011 <- pre_join(attendance_2011)
-# attendance_2010 <- pre_join(attendance_2010)
-# attendance_2009 <- pre_join(attendance_2009)
-# attendance_2008 <- pre_join(attendance_2008)
-# attendance_2007 <- pre_join(attendance_2007)
-# attendance_2006 <- pre_join(attendance_2006)
+bud2015 <- budget_filter(2015)
+bud2014 <- budget_filter(2014)
+bud2013 <- budget_filter(2013)
+bud2012 <- budget_filter(2012)
+bud2011 <- budget_filter(2011)
+bud2010 <- budget_filter(2010)
+bud2009 <- budget_filter(2009)
+bud2008 <- budget_filter(2008)
+bud2007 <- budget_filter(2007)
+bud2006 <- budget_filter(2006)
+bud2005 <- budget_filter(2005)
+
+
+attendance_2016 <- pre_join(bud2015, attendance_2016)
+attendance_2015 <- pre_join(bud2014, attendance_2015)
+attendance_2014 <- pre_join(bud2013, attendance_2014)
+attendance_2013 <- pre_join(bud2012, attendance_2013)
+attendance_2012 <- pre_join(bud2011, attendance_2012)
+attendance_2011 <- pre_join(bud2010, attendance_2011)
+attendance_2010 <- pre_join(bud2009, attendance_2010)
+attendance_2009 <- pre_join(bud2008, attendance_2009)
+attendance_2008 <- pre_join(bud2007, attendance_2008)
+attendance_2007 <- pre_join(bud2006, attendance_2007)
+attendance_2006 <- pre_join(bud2005, attendance_2006)
+
+
+names(attendance_2016)[15] <- "Attendance 2016"
+names(attendance_2015)[15] <- "Attendance 2015"
+names(attendance_2014)[15] <- "Attendance 2014"
+names(attendance_2013)[15] <- "Attendance 2013"
+names(attendance_2012)[15] <- "Attendance 2012"
+names(attendance_2011)[15] <- "Attendance 2011"
+names(attendance_2010)[15] <- "Attendance 2010"
+names(attendance_2009)[15] <- "Attendance 2009"
+names(attendance_2008)[15] <- "Attendance 2008"
+names(attendance_2007)[15] <- "Attendance 2007"
+names(attendance_2006)[15] <- "Attendance 2006"
+
+
+rbind(attendance_2016, attendance_2015)
+
+
+
+write.csv(attendance_2016, "data/2015-2016 data.csv")
+
+
+
+
+
+
 
 
