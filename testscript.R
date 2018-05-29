@@ -129,11 +129,11 @@ names(attendance_2007)[15] <- "Attendance 2007"
 names(attendance_2006)[15] <- "Attendance 2006"
 
 
-rbind(attendance_2016, attendance_2015)
 
 
 
-write.csv(attendance_2016, "data/2015-2016 data.csv")
+
+
 
 
 
