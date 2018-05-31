@@ -53,7 +53,7 @@ shinyUI(fluidPage(theme = "bootstrap.css", #sets theme for web app
                                         ),
                                         mainPanel(
                                           # Renders the data table
-                                          plotlyOutput("mainPlot"),
+                                          plotlyOutput("mainPlot"), br(), br(),
                                           dataTableOutput("mainDataTable")
                                         )
                                       )
@@ -131,8 +131,12 @@ shinyUI(fluidPage(theme = "bootstrap.css", #sets theme for web app
                                         ),
                                         # contains the information paragraph and the reactive map
                                         mainPanel(
-                                          #plotlyOutput('athl1Plot'),
-                                          #plotlyOutput('ath2lPlot')
+                                          plotlyOutput('athl1Plot'), br(), br(),
+                                          dataTableOutput('athlTable1'), br(),
+                                          plotlyOutput('ath2lPlot'), br(), br(),
+                                          dataTableOutput('athlTable2'), br(),
+                                          plotlyOutput('ath3lPlot'), br(), br(),
+                                          dataTableOutput('acTable1'), br(),
                                           br(),
                                           br(),
                                           h4("Information"),
