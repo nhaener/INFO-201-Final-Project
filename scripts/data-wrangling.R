@@ -139,7 +139,8 @@ max_min_per_student_test <- get_max_min_per_student_academic("2015")
 View(max_min_per_student_test)
 
 
-
+# write combined data to csv
+write.csv(combined_data, file = "output/combined_data.csv")
 
 
 
