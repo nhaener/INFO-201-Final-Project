@@ -26,8 +26,11 @@ library(shinyjs)
 # source the analysis file for graphs and such
 # source("scripts/analysisNick.R")
 OV <- read.csv("output/OV.csv")
-#AC <- read.csv("output/AC.csv")
-#AT <- read.csv("output/AT.csv")
+AC1 <- read.csv("output/AC1.csv")
+#AC2 <- read.csv("output/AC2.csv")
+#FB1 <- read.csv("output/FB1.csv")
+#AT1 <- read.csv("output/AT.csv")
+#AT2 <- read.csv(output/AT2.csv)
 
 
 ######### Shiny Server Work #########
@@ -38,10 +41,6 @@ shinyServer(function(input, output) {
   
   #############################################################
   # Output for Overview Tab
-  # ov_data <- reactive({
-  #   to_OV <- select(OV, school, contains(as.character(input$year))) %>%
-  #   colnames(to_OV) = c('School', 'Attendence', 'Total.Athletic.Spending')
-  # })
   
   # Toggles showing data table associated with current view on map
   observeEvent(input$Overview_data_show_table, {
@@ -49,13 +48,15 @@ shinyServer(function(input, output) {
   })
   
   output$mainPlot <- renderPlotly({
-    ov_data <- OV %>% select(school, paste0("Attendance.", input$main_select_year), paste0("Total.Athletic.Spending.", input$main_select_year))
+    ov_data <- OV %>% select(school, paste0("Attendance.", input$main_select_year), paste0("Total.Athletic.Spending.", 
+                                                                                           input$main_select_year))
     colnames(ov_data) = c('School', 'Attendance', 'Total.Athletic.Spending')
     
-    plot_ly(ov_data, x = ~ov_data$Total.Athletic.Spending, y = ~ov_data$Attendance, type = "scatter",
+    plot_ly(ov_data, x = ~ov_data$Total.Athletic.Spending, y = ~Attendance, type = "scatter",
             color = ~Total.Athletic.Spending,
             size = ~Total.Athletic.Spending,
-            text = ~paste("School: ", School, '<br>Attendance:', Attendance., '<br>Total Spending:', Total.Athletic.Spending)) %>%
+            text = ~paste("School: ", School, '<br>Attendance:', Attendance, '<br>Total Spending:', 
+                          Total.Athletic.Spending)) %>%
       layout(title = "2005 Data for Athletic Spending Vs. School Attendance",
              xaxis = list(title = "Total Athletic Spending"),
              yaxis = list(title = "Attendance"),
@@ -63,12 +64,55 @@ shinyServer(function(input, output) {
   })
   
   output$mainDataTable <- renderDataTable({
-    dataTable <- OV %>% select(school, paste0("Attendance.", input$main_select_year), paste0("Total.Athletic.Spending.", input$main_select_year))
+    dataTable <- OV %>% select(school, paste0("Attendance.", input$main_select_year), paste0("Total.Athletic.Spending.", 
+                                                                                             input$main_select_year))
     colnames(dataTable) = c('School', 'Attendance', 'Total Athletic Spending')
     dataTable
   })
+
   
+  #############################################################
+  # Output for Academics tab 
   
+  output$ac1Plot <- renderPlotly({
+    ac_data <- AC1 %>% select(Data, paste0("Academic.Spending.per.FTE.Student.", input$main_select_year), 
+                              paste0("Total.Academic.Spending.", input$main_select_year))
+    colnames(ac_data) = c('School', 'Academic.Spending.per.FTE.Student', 'Total.Academic.Spending')
+    
+    plot_ly(ac_data, x = ~Total.Academic.Spending, y = ~Academic.Spending.per.FTE.Student, type = "scatter",
+            color = ~Academic.Spending.per.FTE.Student,
+            size = ~Academic.Spending.per.FTE.Student,
+            text = ~paste("School: ", School, '<br>Academic spending per student:', 
+                          Academic.Spending.per.FTE.Student, '<br>Total Spending:', Total.Academic.Spending)) %>%
+      layout(title = paste(input$main_select_year, "Total Spending Vs. Student Spending"),
+             xaxis = list(title = "Student Academic Spending"),
+             yaxis = list(title = "Total Academic Spending"),
+             showlegend = F)
+    
+  })
+  
+  output$ac2Plot <- renderPlotly({
+    
+    
+    
+  })
+  
+  output$acTable1 <- renderDataTable({
+    dataTable <- AC1 %>% select(school, paste0("Academic.Spending.per.FTE.Student.", input$main_select_year), paste0("Total.Academic.Spending.", input$main_select_year))
+    colnames(dataTable) = c('School', 'Student Academic Spending', 'Total Academic Spending')
+    dataTable
+    
+  })
+  
+  output$acTable2 <- renderDataTable({
+    
+    
+  })
+  
+  observeEvent(input$Academics_data_show_table, {
+    toggle("acTable1")
+    toggle("acTable2")
+  })
   
   #############################################################
   # Output for Athletics tab 
@@ -82,18 +126,22 @@ shinyServer(function(input, output) {
   #   to_obmap <- left_join(to_obmap, state_codes, by="State")
   # })
   
-  observeEvent(input$Athletics_data_show_table, {
-    toggle("Athletics_data")
-  })
-  
   output$athl1Plot <- renderPlotly({
-    
     
     
   })
   
   output$athl2Plot <- renderPlotly({
+    fb_data <- FB %>% select(Data, paste0("Football.Players.", input$main_select_year))
+    colnames(ov_data) = c('School', 'Num.FB.Players')
     
+    plot_ly(fb_data, x = ~School, y = ~Num.FB.Players, type = 'bar',
+            marker = list(color = 'rgb(158,202,225)',
+                          line = list(color = 'rgb(8,48,107)', width = 1.5))) %>%
+      layout(title = "Number Football Players by  School",
+             xaxis = list(title = ""),
+             yaxis = list(title = "Number of Football Players"),
+             showlegend = F)
     
     
   })
@@ -104,47 +152,16 @@ shinyServer(function(input, output) {
   })
   
   output$athlTable2 <- renderDataTable({
-    
-    
-  })
-  
-  #############################################################
-  # Output for Academics tab 
-  # ac_data <- reactive({
-  #   to_mainData <- select(OV, State, contains(paste0('OB_percent_', as.character(input$year)))) %>% 
-  #     filter(State!="Alaska", State!="Puerto Rico")
-  #   colnames(to_obmap) = c('State', 'percent')
-  #   to_obmap$hover = with(to_obmap, paste0(to_obmap$State, ": ", round(to_obmap$percent, digits = 3), "%"))
-  #   to_obmap <- left_join(to_obmap, state_codes, by="State")
-  # })
-  
-  observeEvent(input$Academics_data_show_table, {
-    toggle("Academics_data")
-  })
-  
-  output$ac1Plot <- renderPlotly({
-    
-    
+    dataTable <- FB %>% select(Data, paste0("Football.Players.", input$main_select_year))
+    colnames(dataTable) = c('School', 'Num Football Players')
+    dataTable
     
   })
   
-  output$ac2Plot <- renderPlotly({
-    
-    
-    
+  observeEvent(input$Athletics_data_show_table, {
+    toggle("athlTable1")
+    toggle("athlTable2")
   })
-  
-  output$acTable1 <- renderDataTable({
-    
-    
-  })
-  
-  output$acTable2 <- renderDataTable({
-    
-    
-  })
-  
-  
   
   #############################################################
   # Output for Documentation tab 

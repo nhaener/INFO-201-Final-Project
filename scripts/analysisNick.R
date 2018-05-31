@@ -86,10 +86,12 @@ AC_tot <- total_academic
 # Academic Spending Per student
 ACSPS <- academic_spending_per_student
 
+
+
 ### Analysis
 # Athletics - athletic spending per athlete vs total athletic spending, num football players vs NCAA subdivision
-AC_spend_2005 <- AC_spending %>% select(1:2, contains("2005"))
-AC_spend_per_2005 <- AC_spend_2005 %>% select(1:2,contains("per.FTE"), contains("Total."))
+#AC_spend_2005 <- AC_spending %>% select(1:2, contains("2005"))
+AC_spend_per <- AC_spending %>% select(1:2,contains("per.FTE"), contains("Total."))
 new_AC_spend_per <- na.omit(AC_spend_per)
 
 # Write my data frames to CSV for application use
@@ -99,17 +101,25 @@ new_AC_spend_per <- na.omit(AC_spend_per)
 
 # the AC1 plot is going to show the relationship between ......
 #ac1Plot <-
-plot_ly(data = new_AC_spend_per, x = ~Total.Athletic.Spending.2005, y = ~Attendance.2005, type = "scatter",
-        color = ~Total.Athletic.Spending.2005,
-        size = ~Total.Athletic.Spending.2005,
-        text = ~paste("School: ", school, '<br>Attendance:', Attendance.2005, '<br>Total Spending:', Total.Athletic.Spending.2005)) %>%
-  layout(title = "2005 Data for Athletic Spending Vs. School Attendance",
-         xaxis = list(title = "Total Athletic Spending"),
-         yaxis = list(title = "Attendence"),
+plot_ly(data = new_AC_spend_per, x = ~Total.Academic.Spending.2005, y = ~Academic.Spending.per.FTE.Student.2005, type = "scatter",
+        color = ~Academic.Spending.per.FTE.Student.2005,
+        size = ~Academic.Spending.per.FTE.Student.2005,
+        text = ~paste("School: ", Data, '<br>Academic spending per student:', Academic.Spending.per.FTE.Student.2005, '<br>Total Spending:', Total.Academic.Spending.2005)) %>%
+  layout(title = "2005 Data for Total Academic Spending Vs. Student Academic Spending",
+         xaxis = list(title = "Total Academic Spending"),
+         yaxis = list(title = "Student Academic Spending"),
          showlegend = F)
 
 # the AC2 plot is going to show the relationship between ......
+
+
+
 #ac2Plot <-
+
+
+# write data frames to csv as needed for later use
+write.csv(new_AC_spend_per, file = "output/AC1.csv")
+write.csv(new_AC_spend_per, file = "output/AC2.csv")
 
 
 ######## ATHLETICS ##########
@@ -118,10 +128,16 @@ AT_spending <- athletic_spending_data
 
 ### Analysis
 
+# pl2
+#
+football_div <- CD %>% select(Data, UNITID, NCAA.Subdivision, contains("Football.Players"))
+football_div <- na.omit(football_div)
+divisions <- as.data.frame(unique(CD$NCAA.Subdivision))
+colnames(divisions) <- "division"
+football_test_2005 <- football_div %>% select(Data, UNITID, contains("2005"))
 
 
 
-# Write my data frames to CSV for application use
 
 
 ## Plotting
@@ -132,3 +148,20 @@ AT_spending <- athletic_spending_data
 
 # the Athl2 plot is going to show the relationship between ......
 #athl2Plot <-
+
+
+x <- c("Fotball Championship Subdivision")
+
+
+plot_ly(football_test_2005, x = ~Data, y = ~Football.Players.2005, type = 'bar',
+        marker = list(color = 'rgb(158,202,225)',
+                      line = list(color = 'rgb(8,48,107)', width = 1.5))) %>%
+  layout(title = "Number Football Players by  School",
+         xaxis = list(title = ""),
+         yaxis = list(title = "Number of Football Players"),
+         showlegend = F)
+
+#athl3Plot <-
+
+# write.csv( , file = "output/FB1.csv)
+write.csv(football_div, file = "output/FB2.csv")

@@ -40,13 +40,13 @@ shinyUI(fluidPage(theme = "bootstrap.css", #sets theme for web app
                                                       # selectInput("main_select_school",
                                                       #             choices = c("All", choices()),
                                                       #             label = "Select focus (by State or All)"),
-                                                      radioButtons("radio_select", label = h3("Data Shown"),
-                                                                   choices = list("select1" = 1, 
-                                                                                  "select2" = 2, 
-                                                                                  "select3" = 3), 
-                                                                   selected = 1
+                                                      # radioButtons("radio_select", label = h3("Data Shown"),
+                                                      #              choices = list("select1" = 1, 
+                                                      #                             "select2" = 2, 
+                                                      #                             "select3" = 3), 
+                                                      #              selected = 1
                                                                    
-                                                      ),
+                                                      # ),
                                                       # Toggle for showing data table below graph
                                                       checkboxInput("Overview_data_show_table",
                                                                     label = "Display data")
@@ -73,13 +73,13 @@ shinyUI(fluidPage(theme = "bootstrap.css", #sets theme for web app
                                                       # selectInput("main_select_state",
                                                       #             choices = c("All", choices()),
                                                       #             label = "Select focus (by State or All)"),
-                                                      radioButtons("radio_select", label = h3("Data Shown"),
-                                                                   choices = list("select1" = 1, 
-                                                                                  "select2" = 2, 
-                                                                                  "select3" = 3), 
-                                                                   selected = 1
-                                                                   
-                                                      ),
+                                                      # radioButtons("radio_select", label = h3("Data Shown"),
+                                                      #              choices = list("select1" = 1, 
+                                                      #                             "select2" = 2, 
+                                                      #                             "select3" = 3), 
+                                                      #              selected = 1
+                                                      #              
+                                                      # ),
                                                       # Toggle for showing data table below graphs
                                                       checkboxInput("Academics_data_show_table",
                                                                     label = "Display data")
@@ -88,8 +88,8 @@ shinyUI(fluidPage(theme = "bootstrap.css", #sets theme for web app
                                         ),
                                         # contains the information paragraph and the reactive map
                                         mainPanel(
-                                          #plotlyOutput('ac1Plot'), br(), br(),
-                                          #dataTableOutput()
+                                          plotlyOutput('ac1Plot'), br(), br(),
+                                          dataTableOutput('acTable1'), br(),
                                           #plotlyOutput('ac2Plot'),
                                           br(),
                                           br(),
@@ -115,13 +115,13 @@ shinyUI(fluidPage(theme = "bootstrap.css", #sets theme for web app
                                                       # selectInput("main_select_state",
                                                       #             choices = c("National", choices()),
                                                       #             label = "Select focus (by State or All)"),
-                                                      radioButtons("radio_select", label = h3("Data Shown"),
-                                                                   choices = list("select1" = 1, 
-                                                                                  "select2" = 2, 
-                                                                                  "select3" = 3), 
-                                                                   selected = 1
-                                                                   
-                                                      ),
+                                                      # radioButtons("radio_select", label = h3("Data Shown"),
+                                                      #              choices = list("select1" = 1, 
+                                                      #                             "select2" = 2, 
+                                                      #                             "select3" = 3), 
+                                                      #              selected = 1
+                                                      #              
+                                                      # ),
                                                       # Toggle for showing data table below graphs
                                                       checkboxInput("Athletics_data_show_table",
                                                                     label = "Display data")
