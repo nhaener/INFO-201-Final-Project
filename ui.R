@@ -17,7 +17,7 @@ library(shinyjs)
 
 
 # source the analysis file for graphs and such
-source("scripts/analysisNick.R")
+#source("scripts/analysisNick.R")
 #data <- read.csv("output/NicksData.csv")
 
 
@@ -37,9 +37,9 @@ shinyUI(fluidPage(theme = "bootstrap.css", #sets theme for web app
                                                                   label = "Select year", 
                                                                   animate = animationOptions(interval = 4000)),
                                                       # Dropdown box to select national or state to view  
-                                                      # selectInput("main_select_state",
-                                                      #             choices = c("National", choices()),
-                                                      #             label = "Select focus (by State or national)"),
+                                                      # selectInput("main_select_school",
+                                                      #             choices = c("All", choices()),
+                                                      #             label = "Select focus (by State or All)"),
                                                       radioButtons("radio_select", label = h3("Data Shown"),
                                                                    choices = list("select1" = 1, 
                                                                                   "select2" = 2, 
@@ -54,7 +54,7 @@ shinyUI(fluidPage(theme = "bootstrap.css", #sets theme for web app
                                         mainPanel(
                                           # Renders the data table
                                           plotlyOutput("mainPlot"),
-                                          dataTableOutput("dataTable")
+                                          dataTableOutput("mainDataTable")
                                         )
                                       )
                              ),
@@ -71,8 +71,8 @@ shinyUI(fluidPage(theme = "bootstrap.css", #sets theme for web app
                                                                   animate = animationOptions(interval = 4000)),
                                                       # Dropdown box to select national or state to view  
                                                       # selectInput("main_select_state",
-                                                      #             choices = c("National", choices()),
-                                                      #             label = "Select focus (by State or national)"),
+                                                      #             choices = c("All", choices()),
+                                                      #             label = "Select focus (by State or All)"),
                                                       radioButtons("radio_select", label = h3("Data Shown"),
                                                                    choices = list("select1" = 1, 
                                                                                   "select2" = 2, 
@@ -114,7 +114,7 @@ shinyUI(fluidPage(theme = "bootstrap.css", #sets theme for web app
                                                       # Dropdown box to select national or state to view  
                                                       # selectInput("main_select_state",
                                                       #             choices = c("National", choices()),
-                                                      #             label = "Select focus (by State or national)"),
+                                                      #             label = "Select focus (by State or All)"),
                                                       radioButtons("radio_select", label = h3("Data Shown"),
                                                                    choices = list("select1" = 1, 
                                                                                   "select2" = 2, 

@@ -45,26 +45,27 @@ shinyServer(function(input, output) {
   
   # Toggles showing data table associated with current view on map
   observeEvent(input$Overview_data_show_table, {
-    toggle("Overview_data")
+    toggle("mainDataTable")
   })
   
   output$mainPlot <- renderPlotly({
-    ov_data <- OV %>% select(OV, school, paste("Attendance.", input$main_select_year, sep = ""), paste("Total.Athletic.Spending.", input$main_select_year, sep = ""))
-    colnames(ov_data) = c('School', 'Attendence', 'Total.Athletic.Spending')
+    ov_data <- OV %>% select(school, paste0("Attendance.", input$main_select_year), paste0("Total.Athletic.Spending.", input$main_select_year))
+    colnames(ov_data) = c('School', 'Attendance', 'Total.Athletic.Spending')
     
-    plot_ly(ov_data, x = ~Total.Athletic.Spending, y = ~Attendance, type = "scatter",
+    plot_ly(ov_data, x = ~ov_data$Total.Athletic.Spending, y = ~ov_data$Attendance, type = "scatter",
             color = ~Total.Athletic.Spending,
             size = ~Total.Athletic.Spending,
-            text = ~paste("School: ", School, '<br>Attendance:', Attendance.2005, '<br>Total Spending:', Total.Athletic.Spending)) %>%
+            text = ~paste("School: ", School, '<br>Attendance:', Attendance., '<br>Total Spending:', Total.Athletic.Spending)) %>%
       layout(title = "2005 Data for Athletic Spending Vs. School Attendance",
              xaxis = list(title = "Total Athletic Spending"),
-             yaxis = list(title = "Attendence"),
+             yaxis = list(title = "Attendance"),
              showlegend = F)
   })
   
   output$mainDataTable <- renderDataTable({
-    
-    
+    dataTable <- OV %>% select(school, paste0("Attendance.", input$main_select_year), paste0("Total.Athletic.Spending.", input$main_select_year))
+    colnames(dataTable) = c('School', 'Attendance', 'Total Athletic Spending')
+    dataTable
   })
   
   
