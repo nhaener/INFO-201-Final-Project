@@ -61,7 +61,7 @@ new_ATT_ATS_2005 <- na.omit(ATT_ATS_2005)
 
 
 ## Plotting
-
+# Overview plot - Tot Athl Spending vs. Attendance
 plot_ly(data = new_ATT_ATS_2005, x = ~Total.Athletic.Spending.2005, y = ~Attendance.2005, type = "scatter",
         color = ~Total.Athletic.Spending.2005,
         size = ~Total.Athletic.Spending.2005,
@@ -90,18 +90,20 @@ ACSPS <- academic_spending_per_student
 
 
 ### Analysis
+# make and manipulate new dataframe for testing and later use in server (plot 1)
 #AC_spend_2005 <- AC_spending %>% select(1:2, contains("2005"))
 AC_spend_per <- AC_spending %>% select(1:2,contains("per.FTE"), contains("Total."))
 new_AC_spend_per <- na.omit(AC_spend_per)
 
-
+# make and manipulate new dataframe for testing and later use in server (plot 2)
 AC_spend_att <- AC_spending %>% select(1:2,contains("Attendance"), contains("per.FTE"))
 AC2_test_2005 <- AC_spend_att %>% select(1:2, contains("2005"))
 new_Ac2_2005 <- na.omit(AC2_test_2005)
 new_AC_spend_att <- na.omit(AC_spend_att)
-# Write my data frames to CSV for application use
 
-
+# plot 3 data analysis
+AC_SP_Pl3 <- AC_spending %>% select(1:2, contains("per.FTE"))
+AC_SP_Pl3_clean <- na.omit(AC_SP_Pl3)
 ## Plotting
 
 # the AC1 plot is going to show the relationship between ......
@@ -127,12 +129,21 @@ plot_ly(data = new_Ac2_2005, x = ~Academic.Spending.per.FTE.Student.2005, y = ~A
 
 
 #ac2Plot <-
-
+plot_ly(AC_SP_Pl3_clean, x = ~Data, y = ~Academic.Spending.per.FTE.Student.2005, type = 'bar',
+        marker = list(color = 'rgb(158,202,225)',
+                      line = list(color = 'rgb(8,48,107)', width = 1.5))) %>%
+  add_trace(x = ~Data, y = ~Academic.Spending.per.FTE.Student.2005, type = 'scatter', mode = 'lines',
+        line = list(color = '#45171D')) %>%
+  layout(title = "Yearly Tuition Cost by School",
+         xaxis = list(title = ""),
+         yaxis = list(title = "Cost of tuition (in $)",side = 'left', showgrid = FALSE, zeroline = FALSE),
+         y2 = list(side = 'right', overlaying = "yaxis", title = title, showgrid = FALSE, zeroline = FALSE),
+         showlegend = F)
 
 # write data frames to csv as needed for later use
 write.csv(new_AC_spend_per, file = "output/AC1.csv")
 write.csv(new_AC_spend_att, file = "output/AC2.csv")
-
+write.csv(AC_SP_Pl3_clean, file = "output/AC3.csv")
 
 ######## ATHLETICS #########################################
 # Athletics - athletic spending per athlete vs total athletic spending, num football players vs school

@@ -28,6 +28,7 @@ library(shinyjs)
 OV <- read.csv("output/OV.csv")
 AC1 <- read.csv("output/AC1.csv")
 AC2 <- read.csv("output/AC2.csv")
+AC3 <- read.csv("output/AC3.csv")
 AT1 <- read.csv("output/AT1.csv")
 FB1 <- read.csv("output/FB1.csv")
 #AT2 <- read.csv(output/AT2.csv)
@@ -105,6 +106,23 @@ shinyServer(function(input, output) {
              yaxis = list(title = "Student Enrollment"),
              showlegend = F)
     
+    
+  })
+  
+  output$ac3Plot <- renderPlotly({
+    ac_data <- AC3 %>% select(Data, paste0("Academic.Spending.per.FTE.Student.", input$main_select_year))
+    colnames(ac_data) = c('School', 'Academic.Spending.per.FTE.Student')
+    
+    plot_ly(ac_data, x = ~School, y = ~Academic.Spending.per.FTE.Student, type = 'bar',
+            marker = list(color = 'rgb(158,202,225)',
+                          line = list(color = 'rgb(8,48,107)', width = 1.5))) %>%
+      add_trace(x = ~School, y = ~Academic.Spending.per.FTE.Student, type = 'scatter', mode = 'lines',
+                line = list(color = '#45171D')) %>%
+      layout(title = paste(input$main_select_year, " Tuition Cost by School"),
+             xaxis = list(title = ""),
+             yaxis = list(title = "Tuition Cost($)",side = 'left', showgrid = FALSE, zeroline = FALSE),
+             y2 = list(side = 'right', overlaying = "yaxis", title = title, showgrid = FALSE, zeroline = FALSE),
+             showlegend = F)
     
   })
   

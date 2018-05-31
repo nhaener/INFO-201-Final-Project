@@ -89,7 +89,8 @@ shinyUI(fluidPage(theme = "bootstrap.css", #sets theme for web app
                                         # contains the information paragraph and the reactive map
                                         mainPanel(
                                           plotlyOutput('ac1Plot'), br(), br(),
-                                          dataTableOutput('acTable1'), br(),
+                                          dataTableOutput('acTable1'), br(), br(),
+                                          plotlyOutput('ac3Plot'), br(), br(),
                                           plotlyOutput('ac2Plot'), br(), br(),
                                           dataTableOutput('acTable2'), br(),
                                           br(),
