@@ -66,7 +66,7 @@ View(combined_data)
 
 # dataframe for athletic spending and attendance data
 athletic_spending_data <- combined_data %>% 
-  select(Data, UNITID, contains("NCAA.Subdivision"), contains("FBS.Conference"), 
+  select(Data, UNITID, contains("NCAA.Subdivision"), contains("FBS.Conference"), contains("Unduplicated.Athletes"), 
          contains("Total.Athletic.Spending"), contains("Athletic.Spending.per.Athlete"),
          contains("Total.Football.Spending"), contains("Football.Spending.per.Football.Player"), contains("Attendance"))
 
