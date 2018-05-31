@@ -119,7 +119,7 @@ plot_ly(data = new_AC_spend_per, x = ~Total.Academic.Spending.2005, y = ~Academi
 plot_ly(data = new_Ac2_2005, x = ~Academic.Spending.per.FTE.Student.2005, y = ~Attendance.2005, type = "scatter",
         color = ~Attendance.2005,
         size = ~Attendance.2005,
-        text = ~paste("School: ", Data, '<br>Attendance:', Attendance.2005, '<br>Total Annual Spending:', Academic.Spending.per.FTE.Student.2005)) %>%
+        text = ~paste("School: ", Data, '<br>Attendance:', Attendance.2005, '<br>Total Annual Spending: ', Academic.Spending.per.FTE.Student.2005)) %>%
   layout(title = "2005 Data for Student Academic Spending Vs. Student Attendance (Enrollment)",
          xaxis = list(title = "Student Academic Spending"),
          yaxis = list(title = "Student Enrollment"),
@@ -135,12 +135,18 @@ write.csv(new_AC_spend_att, file = "output/AC2.csv")
 
 
 ######## ATHLETICS #########################################
-# Athletics - athletic spending per athlete vs total athletic spending, num football players vs NCAA subdivision
+# Athletics - athletic spending per athlete vs total athletic spending, num football players vs school
 
 # athletics data frame for data manipulation
 AT_spending <- athletic_spending_data
 
 ### Analysis
+# pl1
+#
+AT_TotSpend_PlSpend <- AT_spending %>% select(1:2,contains("Total.Athletic"), contains("per.Athlete"))
+AT_year_test_2005 <- AT_TotSpend_PlSpend %>% select(1:2, contains("2005"))
+AT_test_clean <- na.omit(AT_year_test_2005)
+new_AT1 <- na.omit(AT_TotSpend_PlSpend)
 
 # pl2
 #
@@ -158,6 +164,14 @@ football_test_2005 <- football_div %>% select(Data, UNITID, contains("2005"))
 
 # the Athl1 plot is going to show the relationship between ......
 #athl1Plot <-
+plot_ly(data = AT_test_clean, x = ~Athletic.Spending.per.Athlete.2005, y = ~Total.Athletic.Spending.2005, type = "scatter",
+        color = ~Total.Athletic.Spending.2005,
+        size = ~Total.Athletic.Spending.2005,
+        text = ~paste("School: ", Data, '<br>Athletic Spending Per Athlete: $', Athletic.Spending.per.Athlete.2005, '<br>Total Annual Athletic Spending: $', Total.Athletic.Spending.2005)) %>%
+  layout(title = "2005 Data for Athlete Athletic Spending Vs. Total Athletic Spending",
+         xaxis = list(title = "Athlete Athletic Spending"),
+         yaxis = list(title = "Total (Annual) Athletic Spending"),
+         showlegend = F)
 
 
 # the Athl2 plot is going to show the relationship between ......
@@ -177,5 +191,6 @@ plot_ly(football_test_2005, x = ~Data, y = ~Football.Players.2005, type = 'bar',
 
 #athl3Plot <-
 
-# write.csv( , file = "output/FB1.csv)
-write.csv(football_div, file = "output/FB2.csv")
+write.csv(new_AT1, file = "output/AT1.csv")
+write.csv(football_div, file = "output/FB1.csv")
+write.csv(new_AT2, file = "output/AT2")
