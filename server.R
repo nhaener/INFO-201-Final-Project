@@ -17,13 +17,14 @@
 # Load needed packages
 library(shiny)
 library(plotly)
+library(dplyr)
 library(shinyjs)
 
 # library(choroplethr)
 # library(choroplethrMaps)
 
 # source the analysis file for graphs and such
-source("scripts/analysisNick.R")
+# source("scripts/analysisNick.R")
 OV <- read.csv("output/OV.csv")
 #AC <- read.csv("output/AC.csv")
 #AT <- read.csv("output/AT.csv")
@@ -48,7 +49,7 @@ shinyServer(function(input, output) {
   })
   
   output$mainPlot <- renderPlotly({
-    ov_data <- OV %>% select(OV, school, contains(as.character(input$year)))
+    ov_data <- OV %>% select(OV, school, paste("Attendance.", input$main_select_year, sep = ""), paste("Total.Athletic.Spending.", input$main_select_year, sep = ""))
     colnames(ov_data) = c('School', 'Attendence', 'Total.Athletic.Spending')
     
     plot_ly(ov_data, x = ~Total.Athletic.Spending, y = ~Attendance, type = "scatter",

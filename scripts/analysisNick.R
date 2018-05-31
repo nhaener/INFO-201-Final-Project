@@ -14,6 +14,7 @@
 # Load needed packages
 library(plotly)
 library(dplyr)
+library(tidyr)
 
 # source the data wrangling file for access to data frames
 source("scripts/data-wrangling.R")
@@ -47,6 +48,8 @@ colnames(At_S_df)[1] <- "school"
 ### Analysis
 ATT_ATS <- left_join(AT_df, At_S_df, by = c("school", "UNITID"))
 new_ATT_ATS <- na.omit(ATT_ATS)
+test <- ATT_ATS %>% select(school, contains("2005"))
+#flat_ATT_ATS <- flatten(new_ATT_ATS)
 
 
 # create a year df for analysis and plotting purposes
