@@ -90,7 +90,8 @@ shinyUI(fluidPage(theme = "bootstrap.css", #sets theme for web app
                                         mainPanel(
                                           plotlyOutput('ac1Plot'), br(), br(),
                                           dataTableOutput('acTable1'), br(),
-                                          #plotlyOutput('ac2Plot'),
+                                          plotlyOutput('ac2Plot'), br(), br(),
+                                          dataTableOutput('acTable2'), br(),
                                           br(),
                                           br(),
                                           h4("Information"),
