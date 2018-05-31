@@ -54,7 +54,21 @@ shinyUI(fluidPage(theme = "bootstrap.css", #sets theme for web app
                                         mainPanel(
                                           # Renders the data table
                                           plotlyOutput("mainPlot"), br(), br(),
-                                          dataTableOutput("mainDataTable")
+                                          dataTableOutput("mainDataTable"),
+                                          p("Adjust the slider to see the data plotted for that certain year!"),
+                                          p("Or, click the pause/play button to watch the years automatically scroll."),
+                                          p("Click the 'Display data' box to show the data points used for each plot."),
+                                          
+                                          br(),
+                                          h4("Information"),
+                                          p("This data displays the correlation between total athletic spending at the
+                                            major NCAA colleges against the attendance per year at that school. We can 
+                                            see through the years, that there is a moderate positive correlation between 
+                                            the two. However, as the years get closer to 2015, there is an increasing split 
+                                            of colleges that have more academic spending, but less attendance. So the conclusion
+                                            that can be drawn from this is that, typically if an NCAA college has more total funds
+                                            spent on athletics, you can see more attendance to that school. However, the flip is not
+                                            necessarily applicable; more attendance does not imply more spending.")
                                         )
                                       )
                              ),
@@ -65,7 +79,7 @@ shinyUI(fluidPage(theme = "bootstrap.css", #sets theme for web app
                                         sidebarPanel( "View Settings:", width = 3,
                                                       # Slider to select what year to show data for data table
                                                       # Has animation that goes through years
-                                                      sliderInput("main_select_year",
+                                                      sliderInput("academics_select_year",
                                                                   2005, 2015, 1, sep = "",
                                                                   label = "Select year", 
                                                                   animate = animationOptions(interval = 4000)),
@@ -95,9 +109,21 @@ shinyUI(fluidPage(theme = "bootstrap.css", #sets theme for web app
                                           dataTableOutput('acTable2'), br(),
                                           br(),
                                           br(),
+                                          p("Adjust the slider to see the data plotted for that certain year!"),
+                                          p("Or, click the pause/play button to watch the years automatically scroll."),
+                                          p("Click the 'Display data' box to show the data points used for each plot."),
+                                          br(),
                                           h4("Information"),
                                           br(), 
-                                          p(" Information about data shown"),
+                                          p("The first plot displays the trend between total spending on academics of each
+                                            college that year versus the average student spendings on acaedmics that year. Except
+                                            for the couple outliers of the US Air Force Academy and UCLA, the two aspects of data
+                                            have a moderate positive correlation. What we can draw from this is that the more
+                                            colleges spend on academics, the more students have to spend on academics."),
+                                          p("The second plot shows the trend between student enrollment at each college per year
+                                            versus how much students have to spend on academics. There is a weak positive correlation
+                                            between the two over the years of data. Enrollment at schools does not necessarily have
+                                            to do with student spending on academics, which logically would make sense."),
                                           br()
                                           )
                                         )  
@@ -109,7 +135,7 @@ shinyUI(fluidPage(theme = "bootstrap.css", #sets theme for web app
                                         sidebarPanel( "View Settings:", width = 3,
                                                       # Slider to select what year to show data for data table
                                                       # Has animation that goes through years
-                                                      sliderInput("main_select_year",
+                                                      sliderInput("athletics_select_year",
                                                                   2005, 2015, 1, sep = "",
                                                                   label = "Select year", 
                                                                   animate = animationOptions(interval = 4000)),
@@ -140,9 +166,21 @@ shinyUI(fluidPage(theme = "bootstrap.css", #sets theme for web app
                                           #dataTableOutput('athlTable3'), br(),
                                           br(),
                                           br(),
+                                          p("Adjust the slider to see the data plotted for that certain year!"),
+                                          p("Or, click the pause/play button to watch the years automatically scroll."),
+                                          p("Click the 'Display data' box to show the data points used for each plot."),
+                                          br(),
                                           h4("Information"),
                                           br(), 
-                                          p(" Information about data shown"),
+                                          p("This first of the last two plots on athletes compares the annual total athletic
+                                            spending per college versus the average spending from athletes per year. It is shown
+                                            that there is a very strong positive between these two making it clear that the more
+                                            total athletic spending per college is correlative to the amount athletes must spend."),
+                                          p("This last plot displays the amount of football players at each NCAA college. We can see
+                                            just based on the different year data, that the number of football players has never fluctuated
+                                            very much from 2005 to 2015. This is to be expected since the rules of football do not change to
+                                            increase the amount of players playing at once which affects how many football players colleges will
+                                            recruit."),
                                           br()
                                         )
                                       )  
@@ -173,10 +211,6 @@ shinyUI(fluidPage(theme = "bootstrap.css", #sets theme for web app
                                                  "Click Here!")),
                                         p("This data set is based on information released data from all post-secondary education (any education
                                           past high school. i.e. undergraduate or postgraduate educations) institutions."),
-                                        p("The data sets we used are:"), 
-                                        tags$ul(
-                                          tags$li("data 1"), 
-                                          tags$li("data 2")),
                                         h3("Why do we care?"),
                                         p("The one of the main concepts we aimed to address was, how the ranking of college sports teams matched up to the
                                           ranking of the college. Perhaps potential student athletes are searching for the best colleges to attend
@@ -194,7 +228,7 @@ shinyUI(fluidPage(theme = "bootstrap.css", #sets theme for web app
                                           #tags$a(href = "https://cran.r-project.org/web/packages/choroplethr/", "choroplethr"), ", ",
                                           #tags$a(href = "https://cran.r-project.org/web/packages/choroplethrMaps/index.html", "choroplethrMaps"), ", and ",
                                           tags$a(href = "https://cran.r-project.org/web/packages/shinyjs/shinyjs.pdf", "shinyjs"), ". ",
-                                          "For the in depth data manipulation I used ",
+                                          "For the in depth data manipulation we used ",
                                           tags$a(href = "https://cran.rstudio.com/web/packages/dplyr/vignettes/introduction.html", "dplyr"), "."
                                         ),
                                         h3("What aspects of the data sets were used?"),
@@ -202,12 +236,7 @@ shinyUI(fluidPage(theme = "bootstrap.css", #sets theme for web app
                                           athletic spending per athlete, total athletic spending, number of football players, and the
                                           NCAA subdivision for the athletics tab, and academic spending, people attending and division
                                           for the academics tab.", 
-                                          tags$ul(
-                                            tags$li(""),
-                                            tags$li(" ")
-                                          ), 
                                           br()
-                                          
                                         )
                                       )
                              )
