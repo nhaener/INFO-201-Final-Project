@@ -17,8 +17,8 @@ library(shinyjs)
 
 
 # source the analysis file for graphs and such
-source("scripts/analysis.R")
-data <- read.csv("output/ES_df.csv")
+source("scripts/analysisNick.R")
+#data <- read.csv("output/NicksData.csv")
 
 
 #######################################
@@ -33,23 +33,27 @@ shinyUI(fluidPage(theme = "bootstrap.css", #sets theme for web app
                                                       # Slider to select what year to show data for data table
                                                       # Has animation that goes through years
                                                       sliderInput("main_select_year",
-                                                                  2000, 2016, 1, sep = "",
+                                                                  2005, 2015, 1, sep = "",
                                                                   label = "Select year", 
                                                                   animate = animationOptions(interval = 4000)),
                                                       # Dropdown box to select national or state to view  
-                                                      selectInput("main_select_state",
-                                                                  choices = c("National", choices()),
-                                                                  label = "Select focus (by State or national)"),
+                                                      # selectInput("main_select_state",
+                                                      #             choices = c("National", choices()),
+                                                      #             label = "Select focus (by State or national)"),
                                                       radioButtons("radio_select", label = h3("Data Shown"),
                                                                    choices = list("select1" = 1, 
                                                                                   "select2" = 2, 
                                                                                   "select3" = 3), 
                                                                    selected = 1
                                                                    
-                                                      )
+                                                      ),
+                                                      # Toggle for showing data table below graph
+                                                      checkboxInput("Overview_data_show_table",
+                                                                    label = "Display data")
                                         ),
                                         mainPanel(
                                           # Renders the data table
+                                          plotlyOutput("mainPlot"),
                                           dataTableOutput("dataTable")
                                         )
                                       )
@@ -66,22 +70,26 @@ shinyUI(fluidPage(theme = "bootstrap.css", #sets theme for web app
                                                                   label = "Select year", 
                                                                   animate = animationOptions(interval = 4000)),
                                                       # Dropdown box to select national or state to view  
-                                                      selectInput("main_select_state",
-                                                                  choices = c("National", choices()),
-                                                                  label = "Select focus (by State or national)"),
+                                                      # selectInput("main_select_state",
+                                                      #             choices = c("National", choices()),
+                                                      #             label = "Select focus (by State or national)"),
                                                       radioButtons("radio_select", label = h3("Data Shown"),
                                                                    choices = list("select1" = 1, 
                                                                                   "select2" = 2, 
                                                                                   "select3" = 3), 
                                                                    selected = 1
                                                                    
-                                                      )
+                                                      ),
+                                                      # Toggle for showing data table below graphs
+                                                      checkboxInput("Academics_data_show_table",
+                                                                    label = "Display data")
                                                       
                                                       
                                         ),
                                         # contains the information paragraph and the reactive map
                                         mainPanel(
-                                          #plotlyOutput('ac1Plot'),
+                                          #plotlyOutput('ac1Plot'), br(), br(),
+                                          #dataTableOutput()
                                           #plotlyOutput('ac2Plot'),
                                           br(),
                                           br(),
@@ -100,20 +108,23 @@ shinyUI(fluidPage(theme = "bootstrap.css", #sets theme for web app
                                                       # Slider to select what year to show data for data table
                                                       # Has animation that goes through years
                                                       sliderInput("main_select_year",
-                                                                  2000, 2016, 1, sep = "",
+                                                                  2005, 2015, 1, sep = "",
                                                                   label = "Select year", 
                                                                   animate = animationOptions(interval = 4000)),
                                                       # Dropdown box to select national or state to view  
-                                                      selectInput("main_select_state",
-                                                                  choices = c("National", choices()),
-                                                                  label = "Select focus (by State or national)"),
+                                                      # selectInput("main_select_state",
+                                                      #             choices = c("National", choices()),
+                                                      #             label = "Select focus (by State or national)"),
                                                       radioButtons("radio_select", label = h3("Data Shown"),
                                                                    choices = list("select1" = 1, 
                                                                                   "select2" = 2, 
                                                                                   "select3" = 3), 
                                                                    selected = 1
                                                                    
-                                                      )
+                                                      ),
+                                                      # Toggle for showing data table below graphs
+                                                      checkboxInput("Athletics_data_show_table",
+                                                                    label = "Display data")
                                                       
                                                       
                                         ),
