@@ -60,10 +60,32 @@ combined_data <- left_join(data2005, data2006, by = col_names) %>%
 
 View(combined_data)
 
+#######################################
+########## Athletic Spending ##########
+#######################################
 
-# dataframe for academic spending data
+# dataframe for athletic spending and attendance data
+athletic_spending_data <- combined_data %>% 
+  select(Data, UNITID, contains("NCAA.Subdivision"), contains("FBS.Conference"), 
+         contains("Total.Athletic.Spending"), contains("Athletic.Spending.per.Athlete"),
+         contains("Total.Football.Spending"), contains("Football.Spending.per.Football.Player"), contains("Attendance"))
+
+# dataframe for total athletic spending
+total_athletic <- athletic_spending_data %>% 
+  select(Data, UNITID, starts_with("Total.Athletic.Spending"))
+
+# dataframe for athletic spending per student
+athletic_spending_per_student <- athletic_spending_data %>% 
+  select(Data, UNITID, starts_with("Athletic.Spending.per.Athlete"))
+
+
+#######################################
+########## Academic Spending ##########
+#######################################
+
+# dataframe for academic spending and attendance data
 academic_spending_data <- combined_data %>% 
-  select(Data, UNITID, contains("FTE.Students."), contains("Total.Academic.Spending"), contains("Academic.Spending.per.FTE")) 
+  select(Data, UNITID, contains("FTE.Students."), contains("Total.Academic.Spending"), contains("Academic.Spending.per.FTE"), contains("Attendance")) 
 
 # dataframe for total academic spending
 total_academic <- academic_spending_data %>% 
@@ -73,8 +95,6 @@ total_academic <- academic_spending_data %>%
 academic_spending_per_student <- academic_spending_data %>% 
   select(Data, UNITID, starts_with("Academic.Spending.per.FTE")) 
 
-# things I still need to do: Dataframes and tables for athlete spending as well as attendance
-
 
 #########################################################
 ############ FUNCTIONS for getting max/mins##############
@@ -83,7 +103,7 @@ academic_spending_per_student <- academic_spending_data %>%
 
 # function that takes in any year from 2005 to 2015 as a string and returns a dataframe showing 
 # the college with the highest total academic spending of that year, and the college with the lowest of that year.
-get_max_min_total <- function(year) {
+get_max_min_total_academic <- function(year) {
   max_min <- total_academic %>% 
     select(Data, total_spending = ends_with(year)) %>% 
      filter(total_spending == max(total_spending, na.rm = TRUE) | total_spending == min(total_spending, na.rm = TRUE)) %>% 
@@ -95,13 +115,13 @@ get_max_min_total <- function(year) {
 }
 
 # test total academic spending function 
-max_min_total_test <- get_max_min_total("2015")
+max_min_total_test <- get_max_min_total_academic("2015")
 View(max_min_total_test)
 
 
 # function that takes in year as a string and returns dataframe showing the college with the 
 # highest academic spending per student of that year, as well as the college with the lowest
-get_max_min_per_student <- function(year) {
+get_max_min_per_student_academic <- function(year) {
   max_min <- academic_spending_per_student %>% 
     select(Data, spending_per_student = ends_with(year)) %>% 
     filter(spending_per_student == max(spending_per_student, na.rm = TRUE) | 
@@ -113,7 +133,7 @@ get_max_min_per_student <- function(year) {
   return(max_min)
 }
 
-max_min_per_student_test <- get_max_min_per_student("2015")
+max_min_per_student_test <- get_max_min_per_student_academic("2015")
 View(max_min_per_student_test)
 
 
