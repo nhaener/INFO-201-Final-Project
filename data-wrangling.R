@@ -70,12 +70,14 @@ athletic_spending_data <- combined_data %>%
          contains("Total.Athletic.Spending"), contains("Athletic.Spending.per.Athlete"),
          contains("Total.Football.Spending"), contains("Football.Spending.per.Football.Player"), contains("Attendance"))
 
+
 # dataframe for total athletic spending
 total_athletic <- athletic_spending_data %>% 
   select(Data, UNITID, starts_with("Total.Athletic.Spending"))
 
+
 # dataframe for athletic spending per student
-athletic_spending_per_student <- athletic_spending_data %>% 
+athletic_spending_per_athlete <- athletic_spending_data %>% 
   select(Data, UNITID, starts_with("Athletic.Spending.per.Athlete"))
 
 
