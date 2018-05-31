@@ -75,8 +75,8 @@ shinyServer(function(input, output) {
   # Output for Academics tab 
   
   output$ac1Plot <- renderPlotly({
-    ac_data <- AC1 %>% select(Data, paste0("Academic.Spending.per.FTE.Student.", input$main_select_year), 
-                              paste0("Total.Academic.Spending.", input$main_select_year))
+    ac_data <- AC1 %>% select(Data, paste0("Academic.Spending.per.FTE.Student.", input$academics_select_year), 
+                              paste0("Total.Academic.Spending.", input$academics_select_year))
     colnames(ac_data) = c('School', 'Academic.Spending.per.FTE.Student', 'Total.Academic.Spending')
     
     plot_ly(ac_data, x = ~Total.Academic.Spending, y = ~Academic.Spending.per.FTE.Student, type = "scatter",
@@ -84,7 +84,7 @@ shinyServer(function(input, output) {
             size = ~Academic.Spending.per.FTE.Student,
             text = ~paste("School: ", School, '<br>Academic spending per student:', 
                           Academic.Spending.per.FTE.Student, '<br>Total Spending:', Total.Academic.Spending)) %>%
-      layout(title = paste(input$main_select_year, " Total Spending Vs. Student Spending"),
+      layout(title = paste(input$academics_select_year, " Total Spending Vs. Student Spending"),
              xaxis = list(title = "Student Academic Spending"),
              yaxis = list(title = "Total Academic Spending"),
              showlegend = F)
@@ -92,15 +92,15 @@ shinyServer(function(input, output) {
   })
   
   output$ac2Plot <- renderPlotly({
-    ac_data <- AC2 %>% select(Data, paste0("Academic.Spending.per.FTE.Student.", input$main_select_year), 
-                              paste0("Attendance.", input$main_select_year))
+    ac_data <- AC2 %>% select(Data, paste0("Academic.Spending.per.FTE.Student.", input$academics_select_year), 
+                              paste0("Attendance.", input$academics_select_year))
     colnames(ac_data) = c('School', 'Academic.Spending.per.FTE.Student', 'Attendance')
     
     plot_ly(data = ac_data, x = ~Academic.Spending.per.FTE.Student, y = ~Attendance, type = "scatter",
             color = ~Attendance,
             size = ~Attendance,
             text = ~paste("School: ", School, '<br>Attendance:', Attendance, '<br>Total Annual Spending:', Academic.Spending.per.FTE.Student)) %>%
-      layout(title = paste(input$main_select_year, " Student Academic Spending Vs. Student Attendance (Enrollment)"),
+      layout(title = paste(input$academics_select_year, " Student Academic Spending Vs. Student Attendance (Enrollment)"),
              xaxis = list(title = "Student Academic Spending"),
              yaxis = list(title = "Student Enrollment"),
              showlegend = F)
@@ -109,14 +109,14 @@ shinyServer(function(input, output) {
   })
   
   output$acTable1 <- renderDataTable({
-    dataTable <- AC1 %>% select(Data, paste0("Academic.Spending.per.FTE.Student.", input$main_select_year), paste0("Total.Academic.Spending.", input$main_select_year))
+    dataTable <- AC1 %>% select(Data, paste0("Academic.Spending.per.FTE.Student.", input$academics_select_year), paste0("Total.Academic.Spending.", input$academics_select_year))
     colnames(dataTable) = c('School', 'Student Academic Spending', 'Total Academic Spending')
     dataTable
     
   })
   
   output$acTable2 <- renderDataTable({
-    dataTable <- AC2 %>% select(Data, paste0("Academic.Spending.per.FTE.Student.", input$main_select_year), paste0("Attendance.", input$main_select_year))
+    dataTable <- AC2 %>% select(Data, paste0("Academic.Spending.per.FTE.Student.", input$academics_select_year), paste0("Attendance.", input$academics_select_year))
     colnames(dataTable) = c('School', 'Student Academic Spending', 'Student Enrollment (Attendance)')
     dataTable
     
@@ -131,8 +131,8 @@ shinyServer(function(input, output) {
   # Output for Athletics tab 
   
   output$athl1Plot <- renderPlotly({
-    at_data <- AT1 %>% select(Data, paste0("Athletic.Spending.per.Athlete.", input$main_select_year), 
-                              paste0("Total.Athletic.Spending.", input$main_select_year))
+    at_data <- AT1 %>% select(Data, paste0("Athletic.Spending.per.Athlete.", input$athletics_select_year), 
+                              paste0("Total.Athletic.Spending.", input$athletics_select_year))
     colnames(at_data) = c('School', 'Athletic.Spending.per.Athlete', 'Total.Athletic.Spending')
     
     plot_ly(data = at_data, x = ~Athletic.Spending.per.Athlete, y = ~Total.Athletic.Spending, type = "scatter",
@@ -140,7 +140,7 @@ shinyServer(function(input, output) {
             size = ~Total.Athletic.Spending,
             text = ~paste("School: ", School, '<br>Athletic Spending Per Athlete: $', Athletic.Spending.per.Athlete, 
                           '<br>Total Annual Athletic Spending: $', Total.Athletic.Spending)) %>%
-      layout(title = paste(input$main_select_year, " Athlete Athletic Spending Vs. Total Athletic Spending"),
+      layout(title = paste(input$athletics_select_year, " Athlete Athletic Spending Vs. Total Athletic Spending"),
              xaxis = list(title = "Athlete Athletic Spending"),
              yaxis = list(title = "Total (Annual) Athletic Spending"),
              showlegend = F)
@@ -148,13 +148,13 @@ shinyServer(function(input, output) {
   })
   
   output$athlPlot2 <- renderPlotly({
-    fb_data <- FB1 %>% select(Data, paste0("Football.Players.", input$main_select_year))
+    fb_data <- FB1 %>% select(Data, paste0("Football.Players.", input$athletics_select_year))
     colnames(fb_data) = c('School', 'Num.FB.Players')
     
     plot_ly(fb_data, x = ~School, y = ~Num.FB.Players, type = 'bar',
             marker = list(color = 'rgb(158,202,225)',
                           line = list(color = 'rgb(8,48,107)', width = 1.5))) %>%
-      layout(title = paste(input$main_select_year, " Number Football Players by  School"),
+      layout(title = paste(input$athletics_select_year, " Number Football Players by  School"),
              xaxis = list(title = ""),
              yaxis = list(title = "Number of Football Players"),
              showlegend = F)
@@ -168,8 +168,8 @@ shinyServer(function(input, output) {
   })
   
   output$athlTable1 <- renderDataTable({
-    dataTable <- AT1 %>% select(Data, paste0("Athletic.Spending.per.Athlete.", input$main_select_year), 
-                                paste0("Total.Athletic.Spending.", input$main_select_year))
+    dataTable <- AT1 %>% select(Data, paste0("Athletic.Spending.per.Athlete.", input$athletics_select_year), 
+                                paste0("Total.Athletic.Spending.", input$athletics_select_year))
     colnames(dataTable) = c('School', 'Athletic Spending per Athlete', 'Total Athletic Spending')
     dataTable
     
@@ -177,7 +177,7 @@ shinyServer(function(input, output) {
   
   
   output$athlTable2 <- renderDataTable({
-    dataTable <- FB1 %>% select(Data, paste0("Football.Players.", input$main_select_year))
+    dataTable <- FB1 %>% select(Data, paste0("Football.Players.", input$athletics_select_year))
     colnames(dataTable) = c('School', 'Num Football Players')
     dataTable
     

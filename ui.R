@@ -65,7 +65,7 @@ shinyUI(fluidPage(theme = "bootstrap.css", #sets theme for web app
                                         sidebarPanel( "View Settings:", width = 3,
                                                       # Slider to select what year to show data for data table
                                                       # Has animation that goes through years
-                                                      sliderInput("main_select_year",
+                                                      sliderInput("academics_select_year",
                                                                   2005, 2015, 1, sep = "",
                                                                   label = "Select year", 
                                                                   animate = animationOptions(interval = 4000)),
@@ -108,7 +108,7 @@ shinyUI(fluidPage(theme = "bootstrap.css", #sets theme for web app
                                         sidebarPanel( "View Settings:", width = 3,
                                                       # Slider to select what year to show data for data table
                                                       # Has animation that goes through years
-                                                      sliderInput("main_select_year",
+                                                      sliderInput("athletics_select_year",
                                                                   2005, 2015, 1, sep = "",
                                                                   label = "Select year", 
                                                                   animate = animationOptions(interval = 4000)),
