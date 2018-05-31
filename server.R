@@ -31,7 +31,6 @@ AC2 <- read.csv("output/AC2.csv")
 AC3 <- read.csv("output/AC3.csv")
 AT1 <- read.csv("output/AT1.csv")
 FB1 <- read.csv("output/FB1.csv")
-#AT2 <- read.csv(output/AT2.csv)
 
 
 ######### Shiny Server Work #########
@@ -101,7 +100,7 @@ shinyServer(function(input, output) {
             color = ~Attendance,
             size = ~Attendance,
             text = ~paste("School: ", School, '<br>Attendance:', Attendance, '<br>Total Annual Spending:', Academic.Spending.per.FTE.Student)) %>%
-      layout(title = paste(input$academics_select_year, " Student Academic Spending Vs. Student Attendance (Enrollment)"),
+      layout(title = paste(input$academics_select_year, " Student Spending Vs. Student Enrollment"),
              xaxis = list(title = "Student Academic Spending"),
              yaxis = list(title = "Student Enrollment"),
              showlegend = F)
@@ -161,7 +160,8 @@ shinyServer(function(input, output) {
       layout(title = paste(input$athletics_select_year, " Athlete Athletic Spending Vs. Total Athletic Spending"),
              xaxis = list(title = "Athlete Athletic Spending"),
              yaxis = list(title = "Total (Annual) Athletic Spending"),
-             showlegend = F)
+             legend = list(title = "Athletic Spending ($)")
+             )
     
   })
   
@@ -172,15 +172,13 @@ shinyServer(function(input, output) {
     plot_ly(fb_data, x = ~School, y = ~Num.FB.Players, type = 'bar',
             marker = list(color = 'rgb(158,202,225)',
                           line = list(color = 'rgb(8,48,107)', width = 1.5))) %>%
+      add_trace(x = ~School, y = ~Num.FB.Players, type = 'scatter', mode = 'lines',
+                line = list(color = '#45171D')) %>%
       layout(title = paste(input$athletics_select_year, " Number Football Players by  School"),
              xaxis = list(title = ""),
-             yaxis = list(title = "Number of Football Players"),
+             yaxis = list(title = "Number of Football Players", side = 'left', showgrid = FALSE, zeroline = FALSE),
+             y2 = list(side = 'right', overlaying = "yaxis", title = title, showgrid = FALSE, zeroline = FALSE),
              showlegend = F)
-    
-    
-  })
-  
-  output$athlPlot3 <- renderPlotly({
     
     
   })
@@ -198,11 +196,6 @@ shinyServer(function(input, output) {
     dataTable <- FB1 %>% select(Data, paste0("Football.Players.", input$athletics_select_year))
     colnames(dataTable) = c('School', 'Num Football Players')
     dataTable
-    
-  })
-  
-  output$athlTable3 <- renderDataTable({
-    
     
   })
   

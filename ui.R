@@ -19,7 +19,7 @@ library(shinyjs)
 # source the analysis file for graphs and such
 #source("scripts/analysisNick.R")
 #data <- read.csv("output/NicksData.csv")
-
+#source("www/bootstrap.css")
 
 #######################################
 shinyUI(fluidPage(theme = "bootstrap.css", #sets theme for web app
@@ -29,13 +29,23 @@ shinyUI(fluidPage(theme = "bootstrap.css", #sets theme for web app
                              ## UI for Overview page
                              tabPanel("Overview",
                                       sidebarLayout(
-                                        sidebarPanel( "View Settings:", width = 3,
+                                        sidebarPanel( strong("View Settings:"), width = 3, 
+                                                      br(), 
+                                                      br(),
+                                                      
                                                       # Slider to select what year to show data for data table
                                                       # Has animation that goes through years
+                                                      
+                                                      "Adjust the slider to see the data plotted for that certain year!", 
+                                                      br(),
+                                                      "Or, click the pause/play button to watch the years automatically scroll.", 
+                                                      br(),
+                                                      br(),
                                                       sliderInput("main_select_year",
                                                                   2005, 2015, 1, sep = "",
                                                                   label = "Select year", 
                                                                   animate = animationOptions(interval = 4000)),
+                                                      
                                                       # Dropdown box to select national or state to view  
                                                       # selectInput("main_select_school",
                                                       #             choices = c("All", choices()),
@@ -47,17 +57,23 @@ shinyUI(fluidPage(theme = "bootstrap.css", #sets theme for web app
                                                       #              selected = 1
                                                                    
                                                       # ),
+                                                      
                                                       # Toggle for showing data table below graph
+                                                      "Click the 'Display data' box to show the data points used for each plot.", 
+                                                      br(),
                                                       checkboxInput("Overview_data_show_table",
                                                                     label = "Display data")
                                         ),
                                         mainPanel(
                                           # Renders the data table
-                                          plotlyOutput("mainPlot"), br(), br(),
+                                          plotlyOutput("mainPlot"), 
+                                          br(), 
+                                          br(),
                                           dataTableOutput("mainDataTable"),
-                                          p("Adjust the slider to see the data plotted for that certain year!"),
-                                          p("Or, click the pause/play button to watch the years automatically scroll."),
-                                          p("Click the 'Display data' box to show the data points used for each plot."),
+                                          
+                                          # p("Adjust the slider to see the data plotted for that certain year!"),
+                                          # p("Or, click the pause/play button to watch the years automatically scroll."),
+                                          # p("Click the 'Display data' box to show the data points used for each plot."),
                                           
                                           br(),
                                           h4("Information"),
@@ -76,9 +92,17 @@ shinyUI(fluidPage(theme = "bootstrap.css", #sets theme for web app
                              ## UI Academics
                              tabPanel("Academics",
                                       sidebarLayout(
-                                        sidebarPanel( "View Settings:", width = 3,
+                                        sidebarPanel( strong("View Settings:"), width = 3, 
+                                                      br(), 
+                                                      br(),
+                                                      
                                                       # Slider to select what year to show data for data table
                                                       # Has animation that goes through years
+                                                      "Adjust the slider to see the data plotted for that certain year!", 
+                                                      br(),
+                                                      "Or, click the pause/play button to watch the years automatically scroll.", 
+                                                      br(),
+                                                      br(),
                                                       sliderInput("academics_select_year",
                                                                   2005, 2015, 1, sep = "",
                                                                   label = "Select year", 
@@ -95,6 +119,8 @@ shinyUI(fluidPage(theme = "bootstrap.css", #sets theme for web app
                                                       #              
                                                       # ),
                                                       # Toggle for showing data table below graphs
+                                                      "Click the 'Display data' box to show the data points used for each plot.", 
+                                                      br(),
                                                       checkboxInput("Academics_data_show_table",
                                                                     label = "Display data")
                                                       
@@ -102,16 +128,21 @@ shinyUI(fluidPage(theme = "bootstrap.css", #sets theme for web app
                                         ),
                                         # contains the information paragraph and the reactive map
                                         mainPanel(
-                                          plotlyOutput('ac1Plot'), br(), br(),
-                                          dataTableOutput('acTable1'), br(), br(),
-                                          plotlyOutput('ac3Plot'), br(), br(),
-                                          plotlyOutput('ac2Plot'), br(), br(),
-                                          dataTableOutput('acTable2'), br(),
-                                          br(),
-                                          br(),
-                                          p("Adjust the slider to see the data plotted for that certain year!"),
-                                          p("Or, click the pause/play button to watch the years automatically scroll."),
-                                          p("Click the 'Display data' box to show the data points used for each plot."),
+                                          plotlyOutput('ac1Plot'), 
+                                          br(), br(),
+                                          dataTableOutput('acTable1'), 
+                                          br(), br(),
+                                          plotlyOutput('ac3Plot'), 
+                                          br(), br(),
+                                          plotlyOutput('ac2Plot'), 
+                                          br(), br(),
+                                          dataTableOutput('acTable2'), 
+                                          br(), br(), br(),
+
+                                          # p("Adjust the slider to see the data plotted for that certain year!"),
+                                          # p("Or, click the pause/play button to watch the years automatically scroll."),
+                                          # p("Click the 'Display data' box to show the data points used for each plot."),
+                                          
                                           br(),
                                           h4("Information"),
                                           br(), 
@@ -132,13 +163,21 @@ shinyUI(fluidPage(theme = "bootstrap.css", #sets theme for web app
                              ## UI Athletics
                              tabPanel("Athletics",
                                       sidebarLayout(
-                                        sidebarPanel( "View Settings:", width = 3,
+                                        sidebarPanel( strong("View Settings:"), width = 3, 
+                                                      br(), br(),
+                                                      
                                                       # Slider to select what year to show data for data table
                                                       # Has animation that goes through years
+                                                      "Adjust the slider to see the data plotted for that certain year!", 
+                                                      br(),
+                                                  
+                                                      "Or, click the pause/play button to watch the years automatically scroll.", 
+                                                      br(),
                                                       sliderInput("athletics_select_year",
                                                                   2005, 2015, 1, sep = "",
                                                                   label = "Select year", 
                                                                   animate = animationOptions(interval = 4000)),
+                                                      
                                                       # Dropdown box to select national or state to view  
                                                       # selectInput("main_select_state",
                                                       #             choices = c("National", choices()),
@@ -151,6 +190,8 @@ shinyUI(fluidPage(theme = "bootstrap.css", #sets theme for web app
                                                       #              
                                                       # ),
                                                       # Toggle for showing data table below graphs
+                                                      "Click the 'Display data' box to show the data points used for each plot.", 
+                                                      br(),
                                                       checkboxInput("Athletics_data_show_table",
                                                                     label = "Display data")
                                                       
@@ -158,17 +199,19 @@ shinyUI(fluidPage(theme = "bootstrap.css", #sets theme for web app
                                         ),
                                         # contains the information paragraph and the reactive map
                                         mainPanel(
-                                          plotlyOutput('athl1Plot'), br(), br(),
-                                          dataTableOutput('athlTable1'), br(),
-                                          plotlyOutput('athlPlot2'), br(), br(),
-                                          dataTableOutput('athlTable2'), br(),
-                                          #plotlyOutput('athlPlot3'), br(), br(),
-                                          #dataTableOutput('athlTable3'), br(),
+                                          plotlyOutput('athl1Plot'), 
+                                          br(), br(),
+                                          dataTableOutput('athlTable1'), 
                                           br(),
-                                          br(),
-                                          p("Adjust the slider to see the data plotted for that certain year!"),
-                                          p("Or, click the pause/play button to watch the years automatically scroll."),
-                                          p("Click the 'Display data' box to show the data points used for each plot."),
+                                          plotlyOutput('athlPlot2'), 
+                                          br(), br(),
+                                          dataTableOutput('athlTable2'), 
+                                          br(), br(), br(),
+                                          
+                                          # p("Adjust the slider to see the data plotted for that certain year!"),
+                                          # p("Or, click the pause/play button to watch the years automatically scroll."),
+                                          # p("Click the 'Display data' box to show the data points used for each plot."),
+                                          
                                           br(),
                                           h4("Information"),
                                           br(), 
