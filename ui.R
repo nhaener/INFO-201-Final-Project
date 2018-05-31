@@ -62,7 +62,7 @@ shinyUI(fluidPage(theme = "bootstrap.css", #sets theme for web app
                                                       # Slider to select what year to show data for data table
                                                       # Has animation that goes through years
                                                       sliderInput("main_select_year",
-                                                                  2000, 2016, 1, sep = "",
+                                                                  2005, 2015, 1, sep = "",
                                                                   label = "Select year", 
                                                                   animate = animationOptions(interval = 4000)),
                                                       # Dropdown box to select national or state to view  

@@ -17,3 +17,62 @@ library(dplyr)
 
 
 #read in data sets
+CD <- read.csv("output/combined_data.csv")
+
+#clean innaccuracies in the data frame
+# removing unnecessary columns added when joining df's
+# ***COMMENT OUT IF UNECESSARY*** (CNTRL + SHIFT + C = COMMENT LARGE HIGHLIGHTED CODE CHUNK)
+CD <- CD[-1]
+CD <- CD[-CD$Year.x]
+
+##################### FUNCTIONS #############################################
+
+#############################################################################
+############################## DATA ANALYSIS ################################
+#############################################################################
+
+
+######## OVERVIEW ##########
+
+### Analysis
+
+
+
+
+
+
+
+## Plotting
+
+
+
+
+
+
+######## ACADEMICS ##########
+
+### Analysis
+
+
+
+
+
+
+
+## Plotting
+
+#ac1Plot <-
+#ac2Plot <-
+
+
+######## ATHLETICS ##########
+
+### Analysis
+
+
+
+
+
+
+
+## Plotting
