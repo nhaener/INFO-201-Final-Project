@@ -15,6 +15,8 @@
 library(plotly)
 library(dplyr)
 
+# source the data wrangling file for access to data frames
+source("scripts/data-wrangling.R")
 
 #read in data sets
 CD <- read.csv("output/combined_data.csv")
@@ -33,30 +35,37 @@ CD <- CD[-CD$Year.x]
 
 
 ######## OVERVIEW ##########
+#overview dataframe for cool things..... lol
+O_df <- CD
+
+
 
 ### Analysis
 
 
 
-
+# Write my data frames to CSV for application use
 
 
 
 ## Plotting
 
-
+#
 
 
 
 
 ######## ACADEMICS ##########
+#academics data frame for data manipulation
+AC <- academic_spending_data
+
 
 ### Analysis
 
 
 
 
-
+# Write my data frames to CSV for application use
 
 
 ## Plotting
@@ -66,13 +75,18 @@ CD <- CD[-CD$Year.x]
 
 
 ######## ATHLETICS ##########
+# athletics data frame for data manipulation
+AT <- 
 
 ### Analysis
 
 
 
 
-
+# Write my data frames to CSV for application use
 
 
 ## Plotting
+
+#athl1Plot <-
+#athl2Plot <-

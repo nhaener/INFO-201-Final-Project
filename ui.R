@@ -1,5 +1,5 @@
 #####################################
-## Nick Haener, Doug, Ryan,
+## Nick Haener, Doug, Ryan, James
 ## INFO 201 - Final Project
 ## Spring 2018
 #####################################

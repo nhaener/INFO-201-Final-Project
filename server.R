@@ -1,8 +1,13 @@
-#####################################
-## Nick Haener, Doug, Ryan,
+#############################################################
+## Nick Haener, Doug, Ryan, James
 ## INFO 201 - Final Project
 ## Spring 2018
-#####################################
+##
+## data table definitions
+## MD - Main data for all information regarding secondary education
+## AC - Data frame depicting all academic data
+## AT - Data frame representing all athletics data
+#############################################################
 
 ################# SETUP ##############
 # set working directory
@@ -12,14 +17,13 @@
 # Load needed packages
 library(shiny)
 library(plotly)
-library(dplyr)
 library(shinyjs)
 
 # library(choroplethr)
 # library(choroplethrMaps)
 
 # source the analysis file for graphs and such
-source("scripts/analysis.R")
+source("scripts/analysisNick.R")
 #data <- read.csv("output/ES_df.csv")
 
 
@@ -31,7 +35,7 @@ shinyServer(function(input, output) {
   
   #############################################################
   # Output for Overview Tab
-  output$mainPlot <- renderPlot({
+  output$mainPlot <- renderPlotly({
     
     
     
@@ -46,13 +50,17 @@ shinyServer(function(input, output) {
   
   #############################################################
   # Output for Athletics tab 
-  output$athl1Plot <- renderPlot({
+  
+  #reactive portions for user data manipulation
+  
+  
+  output$athl1Plot <- renderPlotly({
     
     
     
   })
   
-  output$athl2Plot <- renderPlot({
+  output$athl2Plot <- renderPlotly({
     
     
     
@@ -66,13 +74,13 @@ shinyServer(function(input, output) {
   #############################################################
   # Output for Academics tab 
   
-  output$ac1Plot <- renderPlot({
+  output$ac1Plot <- renderPlotly({
     
     
     
   })
   
-  output$ac2Plot <- renderPlot({
+  output$ac2Plot <- renderPlotly({
     
     
     
